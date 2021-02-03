@@ -1,0 +1,553 @@
+body{background: #ccc;
+font-family: monospace;
+margin: 1%; }
+
+
+
+
+h2{
+	word-spacing: 250px;
+	font-size: 20px;
+}
+
+
+
+h3{ font-family: sans-serif;
+	color: red;
+	font-size: 10px;
+}
+
+.hero-01{
+	font-family: Arial, sans-serif;
+}
+
+.hero-02{
+	font-family: Helvetica, sans-serif;
+}
+
+
+.hero-03{
+	font-family: Verdana, sans-serif;
+}
+
+.hero-04{
+	font-family: Trebuchet MS, sans-serif;
+}
+
+.hero-05{
+	font-family: Gill sans, sans-serif;
+}
+
+.hero-06{
+	font-family: Noto sans, sans-serif;
+}
+
+.hero-07{
+	font-family: Avantgarde, TeX Gyre, Adventor,URW Gothic L, sans-serif;
+}
+
+.hero-08{
+	font-family: optima, sans-serif;
+}
+
+.hero-09{
+	font-family: Arial, Narrow, sans-serif;
+}
+
+.hero-10{
+	font-family: sans-serif;
+}
+
+.serif-01{
+	font-family: serif;
+}
+
+.hero-11{
+    font-family: Times, Times New Roman, serif;
+}
+
+.hero-12{
+	font-family: Ditod,serif;
+}
+
+.hero-12{
+	font-family: Georgia, serif;
+}
+
+.hero-14{
+	font-family: Palatino, URW palladio l, serif;
+}
+
+.hero-15{
+	font-family: bookman, URW Bookmam L, serif;
+}
+
+.hero-16{
+	font-family: New Century Schoolbookk, TeX Gyre Schola, serif;
+}
+
+.hero-17{
+	font-family: American Typewriter, serif;
+}
+
+.hero-18{
+	font-family: serif;
+}
+
+.monospace-01{
+	font-family: monospace;
+}
+
+.hero-19{
+	font-family: Andale Mono,
+   monospace;
+}
+
+.hero-20{
+	font-family: Courier New,
+   monospace;
+}
+
+.hero-21{
+	font-family: Courier, monospace;
+}
+
+.hero-22{
+	font-family: FreeMono, monospace;
+}
+
+.hero-23{
+	font-family: OCR A Std, monospace;
+}
+
+.hero-24{
+	font-family: DejaVu Sans Mono,
+   monospace;
+}
+
+.hero-25{
+	font-family: monospace;
+}
+
+.cursive-01{
+	font-family: cursive;
+}
+
+.hero-26{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+
+.hero-27{
+	font-family: Apple Chancery,
+  cursive;
+}
+
+.hero-28{
+	font-family: Brandley Hand,
+  cursive;
+}
+
+.hero-29{
+	font-family: Brush Script MT,
+  Brush  Script STD, cursive;
+}
+
+.hero-30{
+	font-family: Snell Roundhand,
+  cursive;
+}
+
+.hero-31{
+	font-family: URW Chancery L,
+  cursive;
+}
+
+.hero-32{
+	font-family: cursive;
+}
+
+.fantas-01{
+	font-family: fantasy;
+}
+
+.hero-33{
+	font-family: impact, fantasy;
+}
+
+.hero-34{
+	font-family: Luminari, fantasy;
+}
+
+.hero-35{
+	font-family: Chalkduster, fantasy;
+}
+
+.hero-36{
+	font-family: Jazz LET, fantasy;
+}
+
+.hero-37{
+	font-family: Blippo, fantasy;
+}
+
+.hero-38{
+	font-family: Stencil Std, fantasy;
+}
+
+.hero-39{
+	font-family: Markker Felt,
+	fantasy;
+}
+
+.hero-40{
+	font-family: Trattatello, fantasy;
+}
+
+.hero-41{
+	font-family: fantasy;
+}
+
+
+.hero-42{
+	font-style: normal;
+}
+
+
+.hero-43{
+	font-family:  serif;
+}
+
+
+
+}
+
+.hero-44{
+	font-family: sans-serif;
+}
+
+.hero-45{ 
+	font-style: italic;
+}
+
+.hero-46{
+	font-style: italic;
+	font-family: serif;
+}
+
+.hero-47{ 
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+.hero-48{
+	font-style: oblique;
+}
+
+.hero-49{
+	font-style: oblique;
+	font-family:  serif;
+}
+
+.hero-50{
+	font-style: oblique;
+	font-family: sans-serif;
+}
+
+.hero-51{ 
+	font-weight: 100;
+}
+
+.hero-52{font-family: serif;
+	font-weight: 100;
+}
+
+.hero-53{font-family: sans-serif;
+	font-weight: 100;
+}
+
+.hero-54{ 
+	font-weight: 200;
+}
+
+.hero-55{font-family: serif;
+	font-weight: 200;
+}
+
+.hero-56{font-family: sans-serif;
+	font-weight: 200;
+}
+
+
+.hero-57{ 
+	font-weight: 300;
+}
+
+.hero-58{font-family: serif;
+	font-weight: 300;
+}
+
+.hero-59{font-family: sans-serif;
+	font-weight: 300;
+}
+
+.hero-60{ 
+	font-weight: normal;
+}
+
+.hero-61{
+	font-family: : serif;
+	font-weight: normal;
+}
+
+.hero-62{font-family: : sans-serif;
+	font-weight: normal;
+}
+
+
+.hero-63{ 
+	font-weight: 500;
+}
+
+.hero-64{font-family: : serif;
+	font-weight: 500;
+}
+
+.hero-65{
+	font-weight: 500;
+}
+
+.hero-66{ 
+	font-weight: 600;
+}
+
+.hero-67{font-family: serif;
+	font-weight: 600;
+}
+
+.hero-68{ font-family: : sans-serif;
+	font-weight: 600;
+}
+
+.hero-69{ 
+	font-weight: bold;
+}
+
+.hero-70{font-family: serif;
+	font-weight: bold;
+}
+
+.hero-71{ font-family: sans-serif;
+	font-weight: bold;
+}
+
+.hero-72{ 
+	font-weight: 800;
+}
+
+.hero-73{font-family: serif;
+	font-weight: 800;
+}
+
+.hero-74{ font-family: sans-serif;
+	font-weight: 800;
+}
+
+.hero-75{ 
+	font-weight: 900;
+}
+
+.hero-76{font-family: serif;
+	font-weight: 900;
+}
+
+.hero-77{ font-family: sans-serif;
+	font-weight: 900;
+}
+
+.hero-78{
+	font-variant: normal;
+}
+
+.hero-79{
+	font-variant: normal; 
+	font-family: serif;
+}
+
+.hero-80{
+	font-variant: normal;
+	font-family: sans-serif;
+	
+}
+
+
+.hero-81{
+	font-variant: small-caps;
+}
+
+.hero-82{
+	font-variant: small-caps;
+	font-family: serif;
+}
+
+.hero-83{ 
+	font-variant: small-caps;
+	font-family: sans-serif;
+}
+
+.hero-84{
+	font-stretch: ultra-condensed;
+}
+
+.hero-85{
+	font-stretch: ultra-condensed;
+	font-family: serif;
+}
+
+.hero-86{
+	font-stretch: ultra-condensed;
+	font-family: sans-serif;
+}
+
+.hero-87{
+	font-stretch: extra-condensed;
+}
+
+.hero-88{
+	font-stretch: extra-condensed;
+	font-family: serif;
+}
+
+.hero-89{
+	font-stretch: extra-condensed;
+	font-family: sans-serif;
+}
+
+.hero-90{
+	font-stretch: condensed;
+}
+
+.hero-91{
+	font-stretch: condensed;
+	font-family: serif;
+}
+
+.hero-92{
+	font-stretch: condensed;
+	font-family: sans-serif;
+}
+
+.hero-93{
+	font-stretch: normal;
+}
+
+.hero-94{
+	font-stretch: normal;
+	font-family: serif;
+}
+
+.hero-95{
+	font-stretch: normal;
+	font-family: sans-serif;
+}
+
+.hero-96{
+	font-stretch: semi-expanded;
+}
+
+.hero-97{
+	font-stretch: semi-expanded;
+	font-family: serif;
+}
+
+.hero-98{
+	font-stretch: semi-expanded;
+	font-family: sans-serif;
+}
+
+.hero-99{
+	font-stretch: expanded;
+}
+
+.hero-100{
+	font-stretch: expanded;
+	font-family: serif;
+}
+
+.hero-101{
+	font-stretch: expanded;
+	font-family: sans-serif;
+}
+
+.hero-102{
+	font-stretch: extra-expanded;
+}
+
+.hero-103{
+	font-stretch: extra-expanded;
+	font-family: serif;
+}
+
+.hero-104{
+	font-stretch: extra-expanded;
+	font-family: sans-serif;
+}
+
+.hero-105{
+	font-stretch: ultra-expanded;
+}
+
+.hero-106{
+	font-stretch: ultra-expanded;
+	font-family: serif;
+}
+
+.hero-107{
+	font-stretch: ultra-expanded;
+	font-family: sans-serif;
+}
+
+
+
+.bold-01{
+	 
+	font-family: bold;
+}
+
+.it{
+	font-style: italic;
+}
+
+.ni{
+	font-style: oblique;
+}
+
+.mc{
+	font-weight: 100;
+}
+.me{ 
+	font-weight: 900;
+
+}
+
+.lc{
+	font-stretch: condensed;
+}
+
+.lesp{
+
+	font-stretch: ultra-expanded;
+}
+
+.sc{
+	font-variant: small-caps;
+
+}
+
+.font-01{
+	font-weight: 800;
+	
+}
+
+
+
