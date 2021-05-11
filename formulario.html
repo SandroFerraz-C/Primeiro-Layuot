@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
-	<title>Formularíos</title>
+    <title>Formularíos</title>
 
-	<meta charset="utf-8">
-	<meta name="Author" content="Sandro">
-	<meta name="descrition" content="Lista de documentos">
-	<meta name="keywords"content="html5, tecnologia">
+    <meta charset="utf-8">
+    <meta name="Author" content="Sandro">
+    <meta name="descrition" content="Lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
     <link rel="stylesheet" href="css/estilo.css">
 
 
@@ -15,72 +16,72 @@
 </head>
 
 <body>
-	<h1>Estrutura formulario</h1>
+    <h1>Estrutura formulario</h1>
 
     <form action="#" method="POST" class="formlogin">
 
-	<fieldset>
+        <fieldset>
 
-	<legend>Dados Pessoais</legend>
+            <legend>Dados Pessoais</legend>
 
-	<label>Nome:</label>
-	<input type="text" autofocus="">
+            <label>Nome:</label>
+            <input type="text" autofocus="">
 
-<br>	
+            <br>
 
-    <label>Email:</label>
-    <input type="Email"  >
-<br>
+            <label>Email:</label>
+            <input type="Email">
+            <br>
 
-   <label>Telefone:</label>
-   <input type="number" name="Telefone">
-<br>
+            <label>Telefone:</label>
+            <input type="number" name="Telefone">
+            <br>
 
-    <label>Numero de Filho:</label>
-    <input type="number" min="0" max="10"  >
-<br>    
+            <label>Numero de Filho:</label>
+            <input type="number" min="0" max="10">
+            <br>
 
-    <label>Nascimento:</label>
-    <input type="date"  min="2001-01-01"  >
-<br>
+            <label>Nascimento:</label>
+            <input type="date" min="2001-01-01">
+            <br>
 
-     <p>Sexo:
-    
-    <label>Masculino
+            <p>Sexo:
+
+                <label>Masculino
     <input type="radio" name="sexo" value="M">
     </label>
 
-    <label>Feminino
+                <label>Feminino
     <input type="radio" name="sexo" value="F">
     </label>
-<br>
+                <br>
 
-    <label>Altura:</label>
-    <input type="number" name="" step=".01">
-<br>
+                <label>Altura:</label>
+                <input type="number" name="" step=".01">
+                <br>
 
-    <label>Peso:
+                <label>Peso:
     <input type="number" name="" step=".1"></label>
-<br>
+                <br>
 
-</p>
-    
-    <label>Cidade:</label>
-    <input type="" name="">
-<br>
+            </p>
 
-    <label>Estado:</label>
-    <select name="Estado">
+            <label>Cidade:</label>
+            <input type="" name="">
+            <br>
+
+            <label>Estado:</label>
+            <select name="Estado">
     	<option value="0">Selecione</option>
     	<option value="SP">São Paulo</option>
     	<option value="RJ">Rio de Janeiro</option>
     	<option value="MG">Minas Gerais</option>
     	<option value="ES">Espirito Santo</option>
     </select>
-<br>
+            <br>
 
-    <label>Pais:</label>        
-    <select name="Pais">
+            <label>Pais:</label>
+            <select name="Pais">
     	<option value="0">Selecione</option>
     	<option value="BR">Brasil</option>
     	<option value="PG">Paraguai</option>
@@ -88,50 +89,39 @@
     	<option value="CL">Chile</option>
     	<option value="AR">Argentina</option>
     </select>
-<br>
-    
+            <br>
 
-</fieldset>
 
-<fieldset>
-	<legend>Area de Interesse:</legend>
-<label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Area de Interesse:</legend>
+            <label>
 	<input type="checkbox" name="HTML">HTML
 </label>
 
-<label>
+            <label>
 	<input type="checkbox" name="CSS">CSS
 </label>
 
-<label>
+            <label>
 	<input type="checkbox" name="JS">JavaScript
 </label>
 
-</fieldset>
+        </fieldset>
 
-<fieldset>
-	<legend>Mensagem:</legend>
+        <fieldset>
+            <legend>Mensagem:</legend>
 
-<textarea style="resize: none" name="msg" cols="30" rows="10" placeholder="Deixe sua mensagem aqui!"></textarea>
-<br>
+            <textarea style="resize: none" name="msg" cols="30" rows="10" placeholder="Deixe sua mensagem aqui!"></textarea>
+            <br>
 
-<textarea style="resize: none" name="contrato" cols="30" rows="10" readonly> Aquei fica o texto do contrato que precisa ser aceito... </textarea>
-<br>
+            <textarea style="resize: none" name="contrato" cols="30" rows="10" readonly> Aquei fica o texto do contrato que precisa ser aceito... </textarea>
+            <br>
 
-<label>
-	<input type="radio" name="Aceito" required="">Li e aceito
-</label>
+            <label><input type="radio" name="Aceito" required="">Li e aceito</label>
 
-
-
-
-</fieldset>
-
-<input type="submit" value="Enviar">
-
-
-</form>
-
-
+        </fieldset><input type="submit" value="Enviar"></form>
 </body>
+
 </html>

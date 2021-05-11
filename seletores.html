@@ -1,94 +1,103 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Seletores</title>
-	<meta charset="utf-8">
-	<meta name="Author" content="Sandro">
-	<meta name="descrition" content="Lista de documentos">
-	<meta name="keywords"content="html5, tecnologia">
+    <title>Seletores</title>
+    <meta charset="utf-8">
+    <meta name="Author" content="Sandro">
+    <meta name="descrition" content="Lista de documentos">
+    <meta name="keywords" content="html5, tecnologia">
     <link rel="stylesheet" href="css/seletores.css">
 
 </head>
+
 <body>
-	<main>
-<h1>Seletores CSS</h1>
+    <main>
+        <h1>Seletores CSS</h1>
 
-<p>Um documento HTML bem estruturado fornece a estrutra a qual seus estilos são aplicados. Para poder estilizar um determinado elemento HTML utilizando CSS, você precisa ter uma maneira de selecionar esses elementos. Na CSS a parte de uma regra de estilo que faz isso e chamado de <b>Seletor</b> </p>
+        <p>Um documento HTML bem estruturado fornece a estrutra a qual seus estilos são aplicados. Para poder estilizar um determinado elemento HTML utilizando CSS, você precisa ter uma maneira de selecionar esses elementos. Na CSS a parte de uma regra de
+            estilo que faz isso e chamado de <b>Seletor</b> </p>
 
-<h2>Seletor tipo (tags)</h2>
+        <h2>Seletor tipo (tags)</h2>
 
-<p>É o seletor mais abrangente da CSS, ele casa com todos os elementos encontrados.<br> Exemplo:
+        <p>É o seletor mais abrangente da CSS, ele casa com todos os elementos encontrados.<br> Exemplo:
 
-<section class="box-1">
-	<p><b>h1</b><p class="f">{ <span class="font01"> Font-size:</span>  20px;}</p> <br><br>
-	<b> P </b><p class="f"> {<span class="font01"> Font-size:</span> 10px;}</p><br><br>
-	</section>
+            <section class="box-1">
+                <p><b>h1</b>
+                    <p class="f">{ <span class="font01"> Font-size:</span> 20px;}</p> <br><br>
+                    <b> P </b>
+                    <p class="f"> {<span class="font01"> Font-size:</span> 10px;}</p><br><br>
+            </section>
 
 
-	<p>Os estilos acima irão refletir em todos os elementos "p" e "h1" da pagina</p><br><br>
+            <p>Os estilos acima irão refletir em todos os elementos "p" e "h1" da pagina</p><br><br>
 
-	<h2>Agrupamento de seletores</h2>
-	<p>Para aplicar uma regra CSS comum a vários seletores você pode agrupa-los.<br><br> Abaixo vemos algumas regras em comum.</p>
+            <h2>Agrupamento de seletores</h2>
+            <p>Para aplicar uma regra CSS comum a vários seletores você pode agrupa-los.<br><br> Abaixo vemos algumas regras em comum.</p>
 
-		<section class="box-1">
-		<p><b>h1 </b>{<span class="font01"> color:</span> red;} <br><b>h2</b> {<span class="font01"> color:</span> red;} <br> <b>p</b> {<span class="font01"> color:</span> red;}</p>
-		</section>
+            <section class="box-1">
+                <p><b>h1 </b>{<span class="font01"> color:</span> red;} <br><b>h2</b> {<span class="font01"> color:</span> red;} <br> <b>p</b> {<span class="font01"> color:</span> red;}</p>
+            </section>
 
-		<p>Aqui eles foram agrupados.</p>
-		<section class="box-1">
-		<p><b>h1, h2, p</b>{<span class="font01"> color:</span> red;}</p>
-		</section>
-<br><br>
+            <p>Aqui eles foram agrupados.</p>
+            <section class="box-1">
+                <p><b>h1, h2, p</b>{<span class="font01"> color:</span> red;}</p>
+            </section>
+            <br><br>
 
-		<h2>Seletor de classe</h2>
-		<p>podemos aplicar o seletor ao atributo "Class" de qualquer elemento HTML. Se a intenção é aplicar a mesma regra CSS a diferentes elementos, você pode utilizar um <b>Seletor de Classe</b>, segue exemplo:</p>
+            <h2>Seletor de classe</h2>
+            <p>podemos aplicar o seletor ao atributo "Class" de qualquer elemento HTML. Se a intenção é aplicar a mesma regra CSS a diferentes elementos, você pode utilizar um <b>Seletor de Classe</b>, segue exemplo:</p>
 
-		<section class="box-1">
-		<p> < p <span class="font02"> class</span> =<span class="font03"> "diferente"</span>> Este parágrafo sairá diferente por causa da utilização</ p> </p>
-		</section>
+            <section class="box-1">
+                <p>
+                    < p <span class="font02"> class</span> =<span class="font03"> "diferente"</span>> Este parágrafo sairá diferente por causa da utilização</ p>
+                </p>
+            </section>
 
-		<p>A CSS deve começar com um "." (ponto) imediatamente seguido pelo nome da classe, veja:</p>
+            <p>A CSS deve começar com um "." (ponto) imediatamente seguido pelo nome da classe, veja:</p>
 
-		<section class="box-1">
-		<p>.diferente {<span class="font01"> color</span>: black;}</p>
-		</section>
+            <section class="box-1">
+                <p>.diferente {<span class="font01"> color</span>: black;}</p>
+            </section>
 
-		<p>O uso do seletor de classe possibilita estilos diferentes para o mesmo  tipo de elemento, exemplo:<b>
+            <p>O uso do seletor de classe possibilita estilos diferentes para o mesmo tipo de elemento, exemplo:<b>
        
        <section class="box-1">
 		p</b> {<br> <span class="font01"> margin:</span><span class="font02"> 10px</span>;<br>} <br><b>p</b> .destaque {<br> <span class="font01">font-weight:</span> bold;<br>} <br> <b>p</b> .discreto {<br> color: gray;<br>}</p>
-		</section>
+            </section>
 
-		<p>é permitido declar mais de um nome para a classe do mesmo elemento separando os nomes por espaço, exemplo: <br>
+            <p>é permitido declar mais de um nome para a classe do mesmo elemento separando os nomes por espaço, exemplo: <br>
 
-         <section class="box-1">
-		 < p <span class="font02"> class</span> <span class="font03"> "destaque discreto"</span> > Este parágrafo sofrerá estilização de duas regras CSS </ p></p>
-		 </section>
+                <section class="box-1">
+                    < p <span class="font02"> class</span> <span class="font03"> "destaque discreto"</span> > Este parágrafo sofrerá estilização de duas regras CSS </ p>
+            </p>
+            </section>
 
-		<h2>Seletor id</h2>
+            <h2>Seletor id</h2>
 
-		<p>O identificador id pode ser aplicado na maioria dos elementos HTML, só que ele deve ser unico em sua página. <br> 
+            <p>O identificador id pode ser aplicado na maioria dos elementos HTML, só que ele deve ser unico em sua página. <br>
 
-           <section class="box-1">
-			<span class="font01">< div</span> <span class="font02"> id</span><span class="font01">=</span><span class="font03">"main"</span><span class="font01"> ></span>...<span class="font01"> </ div></span> </p>
-			</section>
+                <section class="box-1">
+                    <span class="font01">< div</span> <span class="font02"> id</span><span class="font01">=</span><span class="font03">"main"</span><span class="font01"> ></span>...<span class="font01"> </ div></span> </p>
+            </section>
 
-		<p>A CSS deve ser precedida pelo sinal "#" e imediatamente pelo nome, Veja: </p>
-
-		
-		<section class="box-1">
-		  <p class="margem01"><span class="font03">#main </span> {</p> 
-		<p class="margem02"> ... </p>
-		<p class="margem02">... </p>
-		<p class="margem02">...</p>
-		<p>}</p>
-
-		</section>
-
-	
-</main>
+            <p>A CSS deve ser precedida pelo sinal "#" e imediatamente pelo nome, Veja: </p>
 
 
-<a href="index.html.html"><button>Voltar</button></a>
+            <section class="box-1">
+                <p class="margem01"><span class="font03">#main </span> {</p>
+                <p class="margem02"> ... </p>
+                <p class="margem02">... </p>
+                <p class="margem02">...</p>
+                <p>}</p>
+
+            </section>
+
+
+    </main>
+
+
+    <a href="index.html"><button>Voltar</button></a>
 </body>
+
 </html>
