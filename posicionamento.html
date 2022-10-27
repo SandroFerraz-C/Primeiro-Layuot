@@ -12,295 +12,300 @@
 </head>
 
 <body>
-    <h1>Posisionamento</h1>
-    <h2>6 Estratégias para melhorar a organização do seu CSS</h2>
-    <br><br>
 
-    <p>
-        Algumas estrategias simples podem ser utilizadas para deixar o seu CSS mais organizado, consitente e de fácil manutenção.
-    </p>
-
-    <h3>1°Utilize a Declaração abreviada das propriedades</h3>
-    <br>
-    <p>A forma abreviada de propriedades CSS poupa linhas de códigos e resume as sequências de declarações, deixando o codigo limpo e facil de entender <br><br><br>Veja o exemplo de uma casse sem o uso de declarações abreviadas:</p>
-    <br>
-
-    <section class="box-01">
-        <p>.box{ <br> margin-top:2px;
-            <br> margin-right:2px;
-            <br> margin-bottom:2px;
-            <br> margin-left:2px;
-            <br> font-weight:bold;
-            <br> font-size:12px;
-            <br> line-height:14px;
-            <br> font-family:Arial, verdana;<br> border-width: 1px;<br> border-style: solid;<br> border-color:#fff;
-            <br> background-image:url(imagens/background.gif);
-            <br> background-repeat:no-repeat;
-            <br> background-position: 0 15px;}
-        </p>
-    </section>
-    <p>Utilizando as declarações abreviadas, teriamos a seguinte definição para a mesma classe:</p>
-    <br>
-
-    <section>
+    <header>
+        <h1>Posisionamento</h1>
+        <h2>6 Estratégias para melhorar a organização do seu CSS</h2>
         <p>
-            .box{ <br> margin:2px 3px 5px 9px;<br> font: bold 12px/14px Arial, Verdana;<br> border: 1px solid #ooo;<br> backgroumd:#fff
-            <br> url(imagens/background.gif) 0 12px no-repeat;}
+            Algumas estrategias simples podem ser utilizadas para deixar o seu CSS mais organizado, consitente e de fácil manutenção.
         </p>
-    </section>
-    <br>
-
-    <h3>2° Utilize identação para elementos encadeados</h3>
-
-    <p>Na utilização de seletores contextuais que fazem uso de herança, também chamados de seletores encadeados, uma opção interessante é a identação dos niveis de encadeamento para melhor visualizar qual a relação entre determinadas classes e elementos.
-    </p>
-    <br><br>
-
-    <p>Exemplo:</p>
-    <br><br>
+    </header>
+    <br/><br/>
 
 
-    <section>
-        <p>
-            h3 { <br> font: italic bold 12px/24px<br> Arial, helvetica, sans-serif;<br> }
-            <br>
-            <br> h3 a , h3 a:visited{<br> color:#ooo;
-            <br> }
-        </p>
-    </section>
-    <br><br>
+    <main>
+        <h3>1°Utilize a Declaração abreviada das propriedades</h3>
+        <br/>
+        <p>A forma abreviada de propriedades CSS poupa linhas de códigos e resume as sequências de declarações, deixando o codigo limpo e facil de entender <br/><br/><br/>Veja o exemplo de uma casse sem o uso de declarações abreviadas:</p>
+        <br/>
 
-    <p>Neste exemplo, temos a definição de estilo para o elemento <b>h3.</b> Abaixo, o elemento a que estiver dentro da tag <b>h3</b>, receberá a cor preta. note que, com a identação, é possivel compreender melhor que o estilo dos seletores encadeados está
-        relacionada com o seletor <b>h3</b>. </p>
-    <br>
+        <section class="box-01">
+            <p>.box{ <br/> margin-top:2px;
+                <br/> margin-right:2px;
+                <br/> margin-bottom:2px;
+                <br/> margin-left:2px;
+                <br/> font-weight:bold;
+                <br/> font-size:12px;
+                <br/> line-height:14px;
+                <br/> font-family:Arial, verdana;<br/> border-width: 1px;<br/> border-style: solid;<br/> border-color:#fff;
+                <br/> background-image:url(imagens/background.gif);
+                <br/> background-repeat:no-repeat;
+                <br/> background-position: 0 15px;}
+            </p>
+        </section>
+        <p>Utilizando as declarações abreviadas, teriamos a seguinte definição para a mesma classe:</p>
+        <br/>
 
-    <p>Entretanto, esta técnica pode se tornar contraproducente caso haja muitoss níveis de encadeamento, por exemplo:</p>
-    <br>
+        <section>
+            <p>
+                .box{ <br/> margin:2px 3px 5px 9px;<br/> font: bold 12px/14px Arial, Verdana;<br/> border: 1px solid #ooo;<br/> backgroumd:#fff
+                <br/> url(imagens/background.gif) 0 12px no-repeat;}
+            </p>
+        </section>
+        <br/>
 
-    <section>
-        <p>.content<br> {...}
-            <br>
-            <br> .content p<br> {...}
-            <br>
-            <br> .content p strong<br> {...}
-            <br>
-            <br> .content p strong a <br> {...}
-        </p>
-    </section>
-    <br>
+        <h3>2° Utilize identação para elementos encadeados</h3>
 
+        <p>Na utilização de seletores contextuais que fazem uso de herança, também chamados de seletores encadeados, uma opção interessante é a identação dos niveis de encadeamento para melhor visualizar qual a relação entre determinadas classes e elementos.</p>
+        <br/><br/>
 
+        <p>Exemplo:</p>
+        <br/><br/>
 
-    <br>
-    <p>Portanto, sugiro utilizar apenas o primeiro nível de identação para relacionar com o contexto do primeiro elemento, caso opte por esta técnica.</p>
-    <br>
-
-    <br>
-
-    <h3>3° Faça uma divisão lógica do seu CSS</h3>
-    <br>
-
-    <p>organize o estilo em determinadas seções, para facilitar a criação e a manutenção dos estilos e marque estas divisões com comentários CSS.</p>
-    <br>
-
-    <p>Uma sugestão de seções para realizar esta divisão:</p>
-    <br>
-
-    <ul>
-        <li>Global (reset, corpo da pagina, estilo padrão para parágrafos, listas e etc.)</li>
-        <br>
-        <li>Cabeçalho da pagina</li>
-        <br>
-        <li>Estrutura da página</li>
-        <br>
-        <li>Rodapé</li>
-        <br>
-        <li>Estilos de títulos</li>
-        <br>
-        <li>Estilo de texto</li>
-        <br>
-        <li>Navegação</li>
-        <br>
-        <li>Formulários</li>
-        <br>
-        <li>Extras ou Miscelâneas</li>
-        <br><br>
-    </ul>
-
-    <p>Os estilos de títulos e estílos de texto diferem dos estilos globais pois contém também definições de classes, enquanto que os estilos lobais tratam apenas de definições para os seletores de tas</p>
-    <br><br>
-
-    <p>
-        Exemplos de comentários CSS que você pode uutilizar para marcar a divisão de seções:
-    </p>
-    <br><br>
-
-    <section>
-
-        <p>/* ------------------------------------<br> /* ---------->>> GLOBAL
-            <<<------------<br>
-                /* ------------------------------------<br>
-                <br><br> /* GLOBAL > RESET<br> ///////////////////////////////////////
-                <br>
-                <br><br> /**
-                <br> * Estilos Globais<br> *
-                <br> * @section global reset<br> */
-        </p>
-    </section>
-
-
-    <p>O terceiro exemplo é do CSSDoc, um projeto que visa estabelecer um padrão para documentação de CSS utilizando comentários, mas isso é assunto para outro artigo</p>
-    <br><br><br>
-
-    <h3>
-        4° Estabeleça padrões de nomenclaturas para classes e IDs
-    </h3>
-    <br><br>
-
-    <p>
-        O nome de uma classe ou um ID deve possibilitar a identificação de sua finalidade, de seu uso e de dua semântica.
-    </p>
-    <br>
-
-    <p>Deve-se evitar nomear classes e IDs indicando aspectos estéticos e de posicionamento.</p>
-    <p>Imagine as segintes situações:</p>
-    <br><br>
-
-    <ol>
-        <li>
-            Você nomeia uma classe como conteudoEsquerda, e depois precisa mudar o posicionamento para a direita durante um redesing. Será mais custoso, pois terá que mudar o nome da classe e a intenção não é essa;
-        </li>
-        <br>
-        <li>
-            Você nomeia uma classe como tituloerde. Depos, precisa fazer uma manuntenção rápida, pois o cliente quer o título em vermelho. Você muda apenas no CSS e a classe perde toda a semântica.
-        </li>
-
-    </ol>
-
-    <br><br>
-
-    <p>
-        É importante definir também qual a forma de escrever as classes e IDs. Por exemplo: você utiliza camelCase, outro disigner utiliza nome-com-hífen e outro utiliza nome_com_underline. Estabeleça um padrão unto a equipe, para que as nomenclaturas permaneçam
-        consistentes. Pode ser, por exemplo, com hífem para classe e camel case para ID.
-    </p>
-    <br><br>
-
-    <h3>5° Especialize classes ao invés de criar seletores semelhantes.</h3>
-    <br><br>
-
-    <p>
-        No (X)HTML, podemos utilizar mais de uma classe para o mesmo elemento. Com isso podemos especializar os elementos que utilizam uma determinada classe. Esta técnica e útil quando precisa-se aplicar apenas alguma propriedade diferente a um elemento que
-        já utiliza uma classe, evitando a duplicação de estilos ou utilização de estilo inline.
-    </p>
-    <br>
-
-    <p>
-        No exemplo abaixo, temos dois parágrafos com a mesma classe, verMais e o CSS correspondente:
-    </p>
-    <br><br>
-
-    <h4>
-        HTML
-    </h4>
-    <br><br>
-
-    <section>
+        <section>
+            <p>
+                h3 { <br/> font: italic bold 12px/24px<br/> Arial, helvetica, sans-serif;<br/> }
+                <br/>
+                <br/> h3 a , h3 a:visited{<br/> color:#ooo;
+                <br/> }
+            </p>
+        </section>
+        <br/><br/>
 
         <p>
-            < h2>Artigos Recentes
-                < /h2><br>
-                    <br> >...
-                    <br>
-                    <br>
-                    < p class="erMais">
-                        < a href="artigos.php">Ver Mais
-                            < /a>
-                                < /p> <br>
-                                    <br>
-                                    < h2> Artigos Mais Comentados
-                                        < /h2> <br>
-                                            <br> ...
-                                            <br>
-                                            <br>
-                                            < p class="verMais semBorda">
-                                                < a href="artigos_comentarios.php"> Ver Mais
-                                                    < /a>
-                                                        < /p>
+            Neste exemplo, temos a definição de estilo para o elemento <b>h3.</b> Abaixo, o elemento a que estiver dentro da tag <b>h3</b>, receberá a cor preta. note que, com a identação, é possivel compreender melhor que o estilo dos seletores encadeados
+            está relacionada com o seletor <b>h3</b>.
         </p>
+        <br/>
 
-    </section>
-    <br><br>
+        <p>Entretanto, esta técnica pode se tornar contraproducente caso haja muitoss níveis de encadeamento, por exemplo:</p>
+        <br/>
+
+        <section>
+            <p>.content<br/> {...}
+                <br/>
+                <br/> .content p<br/> {...}
+                <br/>
+                <br/> .content p strong<br/> {...}
+                <br/>
+                <br/> .content p strong a <br/> {...}
+            </p>
+        </section>
+        <br/><br/>
+
+        <p>Portanto, sugiro utilizar apenas o primeiro nível de identação para relacionar com o contexto do primeiro elemento, caso opte por esta técnica.</p>
+        <br/><br/>
+
+        <h3>3° Faça uma divisão lógica do seu CSS</h3>
+        <br/>
+
+        <p>organize o estilo em determinadas seções, para facilitar a criação e a manutenção dos estilos e marque estas divisões com comentários CSS.</p>
+        <br/>
+
+        <p>Uma sugestão de seções para realizar esta divisão:</p>
+        <br/>
+
+        <ul>
+            <li>Global (reset, corpo da pagina, estilo padrão para parágrafos, listas e etc.)</li>
+            <br/>
+            <li>Cabeçalho da pagina</li>
+            <br/>
+            <li>Estrutura da página</li>
+            <br/>
+            <li>Rodapé</li>
+            <br/>
+            <li>Estilos de títulos</li>
+            <br/>
+            <li>Estilo de texto</li>
+            <br/>
+            <li>Navegação</li>
+            <br/>
+            <li>Formulários</li>
+            <br/>
+            <li>Extras ou Miscelâneas</li>
+            <br/><br/>
+        </ul>
+
+        <p>Os estilos de títulos e estílos de texto diferem dos estilos globais pois contém também definições de classes, enquanto que os estilos lobais tratam apenas de definições para os seletores de tas</p>
+        <br/><br/>
+
+        <p>Exemplos de comentários CSS que você pode uutilizar para marcar a divisão de seções:</p>
+        <br/><br/>
+
+        <section>
+
+            <p>/* ------------------------------------<br/> /* ---------->>> GLOBAL
+                <<<------------<br/> /* ------------------------------------<br/>
+                <br/><br/> /* GLOBAL > RESET<br/> ///////////////////////////////////////
+                <br/>
+                <br/><br/> /**
+                <br/> * Estilos Globais<br/> *
+                <br/> * @section global reset<br/> */
+            </p>
+        </section>
 
 
+        <p>O terceiro exemplo é do CSSDoc, um projeto que visa estabelecer um padrão para documentação de CSS utilizando comentários, mas isso é assunto para outro artigo</p>
+        <br/><br/><br/>
 
-    <h4>CSS</h4>
-    <br><br>
+        <h3>
+            4° Estabeleça padrões de nomenclaturas para classes e IDs
+        </h3>
+        <br/><br/>
 
-    <section>
-        <p>.verMais {<br> border-top: 1px solid #ccc;<br> font-size:11px;
-            <br> line-height: 24px;<br> margin: 0 0 10px 0;<br> text-align: right;<br> text-transform: lowercase;<br> }
+        <p>
+            O nome de uma classe ou um ID deve possibilitar a identificação de sua finalidade, de seu uso e de dua semântica.
         </p>
-        <br>
+        <br/>
 
-        <p>.semBorda{</p>
-        <p>border: none;</p>
-        <p>}</p>
+        <p>Deve-se evitar nomear classes e IDs indicando aspectos estéticos e de posicionamento.</p>
+        <p>Imagine as segintes situações:</p>
+        <br/><br/>
 
-    </section>
-    <br><br>
+        <ol>
+            <li>
+                Você nomeia uma classe como: "conteudoEsquerda", e depois precisa mudar o posicionamento para a direita durante um redesing. Será mais custoso, pois terá que mudar o nome da classe e a intenção não é essa;
+            </li>
+            <br/>
+            <li>
+                Você nomeia uma classe como tituloVerde. Depos, precisa fazer uma manuntenção rápida, pois o cliente quer o título em vermelho. Você muda apenas no CSS e a classe perde toda a semântica.
+            </li>
 
-    <p>
-        Dessa forma, especializamos os elementos com a classe verMais, combinando mais uma classe que modifica apenas uma das propriedades, ao invés de criar uma classe verMais2 com a mesma defiições, retirando apenas a borda.
-    </p>
-    <br><br>
+        </ol>
 
-    <h3>6° Ordene as propriedades dos seletores.</h3>
-    <br><br>
+        <br/><br/>
 
-    <p>
-        Independente se você utiliza uma propriedade dor linhas ou todas as propriedades CSS em uma única linha, escolher uma ordem para as propriedadese é importante para facilitar a identificação, a adição de novas propriedades e também ajjuda e encontra mais
-        rapido uma propriedade que você precisa alterar.
-    </p>
-    <br>
-
-    <p>
-        Longe de ser pragmática e indicar apenas 1 tecnica com a qual tive contato ( e que muitas pessoas às vezes têm dificuldade de se adapitar), suiro duas formas de realizaressa ordenação:
-    </p>
-    <br><br>
-
-    <h4>Por ordem alfabética</h4>
-    <br><br>
-
-
-    <p>No começo é um pouco mais complicado para conseguir locaizar determinadas propriedades, pois acaba quebrando um pouco a organizsção lógica. Por exemplo, neste método propriedades como width e height ficarão amplamente distanciadas se o seletor contiver
-        margin, padding, text-align, text-transform, entre outros. Porém, e um pardrão mais conciso e que não gera ambiguidades de utilização.
-    </p>
-    <br><br>
-
-    <h4>Por agrupamento lógico</h4>
-    <br><br>
-
-    <p>Este método pode ser mais produtivo, mas deve ser muito bem definido e documentado como será o agrupamento e qual será a ordem que estes agrupamentos aparecerão nos seletores. Além disso, deve-se ter certeza de que todas as propriedades foram devidamente
-        mapeadas e agrupadas, para não se surpreender com uma propriedade "esquecida" e depois não conseguir saber onde irá colocá-la no seletor.</p>
-    <br><br>
-
-    <p>Um exemplo de agrupamento lógico.</p>
-
-    <section>
-        <p> .seletor {<br> [fonte e propriedades de texto]<br> [plano de fundo]<br> [tamanho]
-            <br> [espaçamentos]
-            <br> posicionamento]
-            <br> }
+        <p>
+            É importante definir também qual a forma de escrever as classes e IDs. Por exemplo: você utiliza camelCase, outro disigner utiliza nome-com-hífen e outro utiliza nome_com_underline. Estabeleça um padrão unto a equipe, para que as nomenclaturas permaneçam
+            consistentes. Pode ser, por exemplo, com hífem para classe e camel case para ID.
         </p>
+        <br/><br/>
 
-    </section>
+        <h3>5° Especialize classes ao invés de criar seletores semelhantes.</h3>
+        <br/><br/>
 
-    <p>Com técnicas simples como esta é possivel tornar o CSS mais funcional, semântico e compreensível, mantendo, principalmente, a flexibilidade do código.</p>
+        <p>
+            No (X)HTML, podemos utilizar mais de uma classe para o mesmo elemento. Com isso podemos especializar os elementos que utilizam uma determinada classe. Esta técnica e útil quando precisa-se aplicar apenas alguma propriedade diferente a um elemento que
+            já utiliza uma classe, evitando a duplicação de estilos ou utilização de estilo inline.
+        </p>
+        <br/>
+
+        <p>
+            No exemplo abaixo, temos dois parágrafos com a mesma classe, verMais e o CSS correspondente:
+        </p>
+        <br/><br/>
+
+        <h4>HTML</h4>
+        <br/><br/>
+
+        <section>
+
+            <div>
+                <xmp>
+                    <h2>Artigos Recentes</h2>
+                </xmp>
+                <br/>
+                <br/> ...
+                <br/>
+                <br/>
+                <xmp>
+                    <p class="erMais"></p>
+                </xmp>
+
+                <xmp>
+                    <a href="artigos.php">Ver Mais
+                    </a>
+                </xmp>
+
+            </div>
+            <br/><br/>
+
+            <div>
+                <xmp>
+                    <h2> Artigos Mais Comentados</h2>
+                </xmp>
+                <br/>
+                <br/> ...
+                <br/>
+                <br/>
+                <xmp>
+                    <p class="verMais semBorda">
+                        <a href="artigos_comentarios.php"> Ver Mais</a>
+                    </p>
+                </xmp>
+            </div>
+
+        </section>
+        <br/><br/>
+
+        <h4>CSS</h4>
+        <br/><br/>
+
+        <section>
+            <p>.verMais {<br/> border-top: 1px solid #ccc;<br/> font-size:11px;
+                <br/> line-height: 24px;<br/> margin: 0 0 10px 0;<br/> text-align: right;<br/> text-transform: lowercase;<br/> }
+            </p>
+            <br/>
+
+            <p>.semBorda{</p>
+            <p>border: none;</p>
+            <p>}</p>
+
+        </section>
+        <br/><br/>
+
+        <p>
+            Dessa forma, especializamos os elementos com a classe verMais, combinando mais uma classe que modifica apenas uma das propriedades, ao invés de criar uma classe verMais2 com a mesma defiições, retirando apenas a borda.
+        </p>
+        <br/><br/>
+
+        <h3>6° Ordene as propriedades dos seletores.</h3>
+        <br/><br/>
+
+        <p>
+            Independente se você utiliza uma propriedade dor linhas ou todas as propriedades CSS em uma única linha, escolher uma ordem para as propriedadese é importante para facilitar a identificação, a adição de novas propriedades e também ajjuda e encontra mais
+            rapido uma propriedade que você precisa alterar.
+        </p>
+        <br/>
+
+        <p>
+            Longe de ser pragmática e indicar apenas 1 tecnica com a qual tive contato ( e que muitas pessoas às vezes têm dificuldade de se adapitar), suiro duas formas de realizaressa ordenação:
+        </p>
+        <br/><br/>
+
+        <h4>Por ordem alfabética</h4>
+        <br/><br/>
+
+
+        <p>No começo é um pouco mais complicado para conseguir locaizar determinadas propriedades, pois acaba quebrando um pouco a organizsção lógica. Por exemplo, neste método propriedades como width e height ficarão amplamente distanciadas se o seletor
+            contiver margin, padding, text-align, text-transform, entre outros. Porém, e um pardrão mais conciso e que não gera ambiguidades de utilização.
+        </p>
+        <br/><br/>
+
+        <h4>Por agrupamento lógico</h4>
+        <br/><br/>
+
+        <p>Este método pode ser mais produtivo, mas deve ser muito bem definido e documentado como será o agrupamento e qual será a ordem que estes agrupamentos aparecerão nos seletores. Além disso, deve-se ter certeza de que todas as propriedades foram
+            devidamente mapeadas e agrupadas, para não se surpreender com uma propriedade "esquecida" e depois não conseguir saber onde irá colocá-la no seletor.</p>
+        <br/><br/>
+
+        <p>Um exemplo de agrupamento lógico.</p>
+
+        <section>
+            <p> .seletor {<br/> [fonte e propriedades de texto]<br/> [plano de fundo]<br/> [tamanho]
+                <br/> [espaçamentos]
+                <br/> posicionamento]
+                <br/> }
+            </p>
+
+        </section>
+
+        <p>Com técnicas simples como esta é possivel tornar o CSS mais funcional, semântico e compreensível, mantendo, principalmente, a flexibilidade do código.</p>
 
 
 
-    <a href="index.html"><button>Voltar</button></a>
-
+        <a href="index.html"><button>Voltar</button></a>
+    </main>
 
 
 </body>
