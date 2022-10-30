@@ -27,6 +27,11 @@ a{  transition: color .2s linear;
 
 
 
+.uppercase{
+    text-transform: uppercase;
+}
+
+
 .main-header-title{
 	font-size: 22px;
 	line-height: 1.5;
