@@ -1,5 +1,18 @@
-body{background: #ccc;
-font-family: monospace;
-margin: 1%;}
+body {
+    background: #ccc;
+    font-family: monospace;
+    margin: 1%;
+}
 
-section{ border: 1px solid black; background-color: #b8b3b8; }
+section {
+    border: 1px solid black;
+    background-color: #b8b3b8;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
