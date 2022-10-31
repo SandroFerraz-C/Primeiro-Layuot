@@ -9,6 +9,18 @@ abbr {
     text-decoration: none;
 }
 
+header {
+    margin-bottom: 3rem;
+}
+
+h2.sources {
+    margin-bottom: 2rem;
+}
+
+.sans-serif {
+    margin-bottom: 3rem;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -26,445 +38,547 @@ h3 {
 
 .hero-01 {
     font-family: arial, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-02 {
     font-family: helvetica, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-03 {
     font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-04 {
     font-family: Trebuchet MS, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-05 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-06 {
     font-family: Noto, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-07 {
     font-family: Avantgarde, TeX Gyre, Adventor, URW Gothic L, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-08 {
     font-family: optima, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-09 {
     font-family: Arial, Narrow, sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-10 {
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .serif-01 {
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-11 {
     font-family: Times, Times New Roman, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-12 {
     font-family: Ditod, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-12 {
     font-family: Georgia, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-14 {
     font-family: Palatino, URW palladio l, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-15 {
     font-family: bookman, URW Bookmam L, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-16 {
     font-family: New Century Schoolbookk, TeX Gyre Schola, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-17 {
     font-family: American Typewriter, serif;
+    margin-bottom: 3rem;
 }
 
 .hero-18 {
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .monospace-01 {
     font-family: monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-19 {
     font-family: Andale Mono, monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-20 {
     font-family: Courier New, monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-21 {
     font-family: Courier, monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-22 {
     font-family: FreeMono, monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-23 {
     font-family: OCR A Std, monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-24 {
     font-family: DejaVu Sans Mono, monospace;
+    margin-bottom: 3rem;
 }
 
 .hero-25 {
     font-family: monospace;
+    margin-bottom: 3rem;
 }
 
 .cursive-01 {
     font-family: cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-26 {
     font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-27 {
     font-family: Apple Chancery, cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-28 {
     font-family: Brandley Hand, cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-29 {
     font-family: Brush Script MT, Brush Script STD, cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-30 {
     font-family: Snell Roundhand, cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-31 {
     font-family: URW Chancery L, cursive;
+    margin-bottom: 3rem;
 }
 
 .hero-32 {
     font-family: cursive;
+    margin-bottom: 3rem;
 }
 
 .fantas-01 {
     font-family: fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-33 {
     font-family: impact, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-34 {
     font-family: Luminari, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-35 {
     font-family: Chalkduster, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-36 {
     font-family: Jazz LET, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-37 {
     font-family: Blippo, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-38 {
     font-family: Stencil Std, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-39 {
     font-family: Markker Felt, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-40 {
     font-family: Trattatello, fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-41 {
     font-family: fantasy;
+    margin-bottom: 3rem;
 }
 
 .hero-42 {
     font-style: normal;
+    margin-bottom: 3rem;
 }
 
 .hero-43 {
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-44 {
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-45 {
     font-style: italic;
+    margin-bottom: 3rem;
 }
 
 .hero-46 {
     font-style: italic;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-47 {
     font-style: italic;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-48 {
     font-style: oblique;
+    margin-bottom: 3rem;
 }
 
 .hero-49 {
     font-style: oblique;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-50 {
     font-style: oblique;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-51 {
     font-weight: 100;
+    margin-bottom: 3rem;
 }
 
 .hero-52 {
     font-family: serif;
     font-weight: 100;
+    margin-bottom: 3rem;
 }
 
 .hero-53 {
     font-family: sans-serif;
     font-weight: 100;
+    margin-bottom: 3rem;
 }
 
 .hero-54 {
     font-weight: 200;
+    margin-bottom: 3rem;
 }
 
 .hero-55 {
     font-family: serif;
     font-weight: 200;
+    margin-bottom: 3rem;
 }
 
 .hero-56 {
     font-family: sans-serif;
     font-weight: 200;
+    margin-bottom: 3rem;
 }
 
 .hero-57 {
     font-weight: 300;
+    margin-bottom: 3rem;
 }
 
 .hero-58 {
     font-family: serif;
     font-weight: 300;
+    margin-bottom: 3rem;
 }
 
 .hero-59 {
     font-family: sans-serif;
     font-weight: 300;
+    margin-bottom: 3rem;
 }
 
 .hero-60 {
     font-weight: normal;
+    margin-bottom: 3rem;
 }
 
 .hero-61 {
     font-family: serif;
     font-weight: normal;
+    margin-bottom: 3rem;
 }
 
 .hero-62 {
     font-family: sans-serif;
     font-weight: normal;
+    margin-bottom: 3rem;
 }
 
 .hero-63 {
     font-weight: 500;
+    margin-bottom: 3rem;
 }
 
 .hero-64 {
     font-family: serif;
     font-weight: 500;
+    margin-bottom: 3rem;
 }
 
 .hero-65 {
     font-weight: 500;
+    margin-bottom: 3rem;
 }
 
 .hero-66 {
     font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 .hero-67 {
     font-family: serif;
     font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 .hero-68 {
     font-family: sans-serif;
     font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 .hero-69 {
     font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 .hero-70 {
     font-family: serif;
     font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 .hero-71 {
     font-family: sans-serif;
     font-weight: bold;
+    margin-bottom: 3rem;
 }
 
 .hero-72 {
     font-weight: 800;
+    margin-bottom: 3rem;
 }
 
 .hero-73 {
     font-family: serif;
     font-weight: 800;
+    margin-bottom: 3rem;
 }
 
 .hero-74 {
     font-family: sans-serif;
     font-weight: 800;
+    margin-bottom: 3rem;
 }
 
 .hero-75 {
     font-weight: 900;
+    margin-bottom: 3rem;
 }
 
 .hero-76 {
     font-family: serif;
     font-weight: 900;
+    margin-bottom: 3rem;
 }
 
 .hero-77 {
     font-family: sans-serif;
     font-weight: 900;
+    margin-bottom: 3rem;
 }
 
 .hero-78 {
     font-variant: normal;
+    margin-bottom: 3rem;
 }
 
 .hero-79 {
     font-variant: normal;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-80 {
     font-variant: normal;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-81 {
     font-variant: small-caps;
+    margin-bottom: 3rem;
 }
 
 .hero-82 {
     font-variant: small-caps;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-83 {
     font-variant: small-caps;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-84 {
     font-stretch: ultra-condensed;
+    margin-bottom: 3rem;
 }
 
 .hero-85 {
     font-stretch: ultra-condensed;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-86 {
     font-stretch: ultra-condensed;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-87 {
     font-stretch: extra-condensed;
+    margin-bottom: 3rem;
 }
 
 .hero-88 {
     font-stretch: extra-condensed;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-89 {
     font-stretch: extra-condensed;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-90 {
     font-stretch: condensed;
+    margin-bottom: 3rem;
 }
 
 .hero-91 {
     font-stretch: condensed;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-92 {
     font-stretch: condensed;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-93 {
     font-stretch: normal;
+    margin-bottom: 3rem;
 }
 
 .hero-94 {
     font-stretch: normal;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-95 {
     font-stretch: normal;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-96 {
     font-stretch: semi-expanded;
+    margin-bottom: 3rem;
 }
 
 .hero-97 {
     font-stretch: semi-expanded;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-98 {
     font-stretch: semi-expanded;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-99 {
@@ -474,73 +588,90 @@ h3 {
 .hero-100 {
     font-stretch: expanded;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-101 {
     font-stretch: expanded;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-102 {
     font-stretch: extra-expanded;
+    margin-bottom: 3rem;
 }
 
 .hero-103 {
     font-stretch: extra-expanded;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-104 {
     font-stretch: extra-expanded;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .hero-105 {
     font-stretch: ultra-expanded;
+    margin-bottom: 3rem;
 }
 
 .hero-106 {
     font-stretch: ultra-expanded;
     font-family: serif;
+    margin-bottom: 3rem;
 }
 
 .hero-107 {
     font-stretch: ultra-expanded;
     font-family: sans-serif;
+    margin-bottom: 3rem;
 }
 
 .bold-01 {
     font-family: bold;
+    margin-bottom: 3rem;
 }
 
 .it {
     font-style: italic;
+    margin-bottom: 3rem;
 }
 
 .ni {
     font-style: oblique;
+    margin-bottom: 3rem;
 }
 
 .mc {
     font-weight: 100;
+    margin-bottom: 3rem;
 }
 
 .me {
     font-weight: 900;
+    margin-bottom: 3rem;
 }
 
 .lc {
     font-stretch: condensed;
+    margin-bottom: 3rem;
 }
 
 .lesp {
     font-stretch: ultra-expanded;
+    margin-bottom: 3rem;
 }
 
 .sc {
     font-variant: small-caps;
+    margin-bottom: 3rem;
 }
 
 .font-01 {
     font-weight: 800;
+    margin-bottom: 3rem;
 }
