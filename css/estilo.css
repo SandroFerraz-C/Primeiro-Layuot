@@ -1,173 +1,572 @@
-body {
-    font-family: arial, sans-serif;
-    background: #ccc;
-    margin: 0px;
-    font-size: 1.5rem;
-}
-
-abbr {
-    text-decoration: none;
-}
-
-.hero {
-    background-image: url(../imagem/bg.jpeg);
-    height: 500px;
-    background-position: right center;
-    background-size: cover;
-    border-top: 1px solid transparent;
-}
-
-.hero-content {
-    color: white;
-    text-align: center;
-    margin-top: 150px;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.hero-content h1 {
-    text-transform: uppercase;
-    font-size: 46px;
-    text-shadow: 3px 3px 5px #333;
-}
-
-.hero-content p {
-    background-color: rgba(0, 0, 0, .5);
-    display: inline-block;
-    padding: 10px;
-    border-bottom: 2px solid white;
-}
-
-.card-010 {
-    text-align: center;
-    padding: 50px;
-    margin-left: 140px;
-}
-
-.hero nav ul {
-    text-align: right;
-    margin: 20px 50px 0 0;
-}
-
-.hero nav li {
-    display: inline-block;
-    list-style: none;
-    margin-left: 10px;
-    border: 1px solid white;
-}
-
-.hero nav a {
-    background: rgba(0, 0, 0, .2);
-    display: block;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-main {
-    width: 90%;
-    margin: auto;
-}
-
-.content-section {
-    background-color: white;
-    padding: 10px;
-    margin-top: 15px;
-    overflow: auto;
-}
-
-.img1 {
-    width: 32%;
-    float: left;
-    box-sizing: border-box;
-}
-
-.card01,
-.card02 {
-    margin-right: 2%;
-}
-
-.img1 img {
-    width: 100%;
-    display: block;
-}
-
-.img1 p {
-    background-color: #393535;
-    color: white;
-    margin: 0;
-    padding: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.content-header {
-    border-bottom: solid 5px #393535;
-    margin-top: 28rem;
-}
-
-.h2-title {
-    margin: 0;
-    background-color: #aca6a6;
-    margin-top: 0;
-}
-
-.skeleton {
-    margin: 0 0 4rem 0;
-}
-
-.html-div {
-    margin: 8rem 0 15rem 1rem;
-}
-
-.html-img {
-    float: left;
-    max-width: 50%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}
-
-.css-div {
-    margin: 8rem 0 10rem 5rem;
-}
-
-.css-img {
-    float: left;
-    max-width: 50%;
-    margin-right: 4rem;
-}
-
-.js-div {}
-
-.js-img {
-    float: left;
-}
-
-.to-understand {
-    margin-top: 20rem;
-}
-
-.rodape {
-    height: 40px;
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    background: #6b6c68;
-    line-height: 40px;
-}
-
-nav {
-    text-align: right;
-    text-transform: houver;
-}
+    body {
+        font-family: arial, sans-serif;
+        background: #ccc;
+        margin: 0px;
+        font-size: 1.5rem;
+    }
+    
+    abbr {
+        text-decoration: none;
+        border-bottom: none;
+    }
+    
+    .hero {
+        background-image: url(../imagem/bg.jpeg);
+        height: 40rem;
+        background-position: right center;
+        background-size: cover;
+        border-top: 1px solid transparent;
+    }
+    
+    .hero-content {
+        color: white;
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .hero-content h1 {
+        text-transform: uppercase;
+        font-size: 46px;
+        text-shadow: 3px 3px 5px #333;
+    }
+    
+    .hero-content p {
+        background-color: rgba(0, 0, 0, .5);
+        display: inline-block;
+        padding: 10px;
+        border-bottom: 2px solid white;
+    }
+    
+    .card-010 {
+        text-align: center;
+        padding: 50px;
+        margin-left: 140px;
+    }
+    
+    .hero nav ul {
+        text-align: right;
+        margin: 20px 50px 0 0;
+    }
+    
+    .hero nav li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 10px;
+        border: 1px solid white;
+    }
+    
+    .hero nav a {
+        background: rgba(0, 0, 0, .2);
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    
+    main {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .content-section {
+        background-color: white;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+    }
+    
+    .img1 {
+        width: 32%;
+        float: left;
+        box-sizing: border-box;
+    }
+    
+    .uppercase {
+        text-transform: uppercase;
+    }
+    
+    .card01,
+    .card02 {
+        margin-right: 2%;
+    }
+    
+    .img1 img {
+        width: 100%;
+        display: block;
+    }
+    
+    .img1 p {
+        background-color: #393535;
+        color: white;
+        margin: 0;
+        padding: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .link {
+        text-decoration: none;
+    }
+    
+    .content-header {
+        border-bottom: solid 5px #393535;
+        margin-top: 28rem;
+    }
+    
+    .h2-title {
+        margin: 0;
+        background-color: #aca6a6;
+        padding: 1rem;
+    }
+    
+    .skeleton {
+        margin: 0 0 4rem 0;
+    }
+    
+    .html-div {
+        margin: 8rem 0 15rem 1rem;
+    }
+    
+    .html-img {
+        float: left;
+        max-width: 50%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+    
+    .css-div {
+        margin: 8rem 0 10rem 5rem;
+    }
+    
+    .css-img {
+        float: left;
+        max-width: 50%;
+        margin-right: 4rem;
+    }
+    
+    .js-img {
+        float: left;
+    }
+    
+    .to-understand {
+        margin-top: 20rem;
+    }
+    
+    .rodape {
+        height: 40px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+        background: #6b6c68;
+        line-height: 40px;
+    }
+    
+    nav {
+        text-align: right;
+        text-transform: houver;
+    }
+    
+    @media screen and (max-width: 2650px) and (min-width: 1302px) {
+        body {
+            font-size: 4.5rem;
+        }
+        .hero {
+            height: 70rem;
+            border-top: 2px solid transparent;
+        }
+        .hero-content h1 {
+            text-transform: uppercase;
+            font-size: 8rem;
+            text-shadow: -0.07rem -0.18rem 0.37rem #333;
+            margin-top: 30rem;
+        }
+        .learnIt {
+            font-size: 4rem;
+        }
+        .img1 p {
+            background-color: #393535;
+            color: white;
+            margin: 0;
+            padding: 0.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.062rem;
+            font-size: 4rem;
+            text-align: center;
+        }
+        .h2-title {
+            background-color: #aca6a6;
+            margin-top: 48.5rem;
+            font-size: 5rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        .card-010 {
+            text-align: center;
+            padding: 1.8rem;
+            margin: 6rem 0 0 0;
+            width: 100%;
+            height: 60rem;
+        }
+        .skeleton {
+            margin: 10rem 0 4rem 0;
+        }
+        .h3-html,
+        .h3-css,
+        .h3-js {
+            font-size: 8rem;
+            margin-top: -4rem;
+            margin-bottom: 2.5rem;
+        }
+        .html-img,
+        .css-img,
+        .js-img {
+            float: left;
+            max-width: 35%;
+            margin-right: 2rem;
+            width: 32rem;
+            height: 32rem;
+        }
+        .html-div,
+        .css-div,
+        .js-div {
+            margin: 20rem 0 1rem 1rem;
+            font-size: 4rem;
+        }
+        .to-understand {
+            margin-top: 8rem;
+        }
+        .to-understand h4 {
+            font-size: 6rem;
+        }
+        aside {
+            margin-top: 7rem;
+            font-size: 3rem;
+        }
+    }
+    
+    @media screen and (max-width: 1500px) and (min-width: 1301px) {
+        .hero {
+            height: 50rem;
+            border-top: 2px solid transparent;
+        }
+        .hero-content h1 {
+            margin-top: 10rem;
+            font-size: 6rem;
+        }
+        .learnIt {
+            font-size: 3rem;
+        }
+        .h2-title {
+            margin: -1rem;
+            text-align: center;
+            font-size: 4rem;
+        }
+        .img1 p {
+            text-align: center;
+            font-size: 3rem;
+        }
+        .card-010 {
+            text-align: center;
+            padding: 3.12rem;
+            height: 35rem;
+        }
+        main {
+            font-size: 2rem;
+        }
+        .porIsso {
+            font-size: 3rem;
+            margin: 5rem 0 3.5rem 0;
+        }
+        .h3-html,
+        .h3-css,
+        .h3-js {
+            font-size: 3rem;
+            margin-top: 3rem;
+            margin-bottom: 2.5rem;
+        }
+        .html-img,
+        .css-img,
+        .js-img {
+            float: left;
+            max-width: 35%;
+            width: 22rem;
+            height: 22rem;
+        }
+        .html-div,
+        .css-div,
+        .js-div {
+            margin: 10rem 0 1rem 1rem;
+            font-size: 2rem;
+        }
+        .to-understand {
+            margin-top: 12rem;
+        }
+        .to-understand h4 {
+            font-size: 4rem;
+        }
+        aside {
+            margin-top: 9rem;
+            font-size: 2rem;
+        }
+    }
+    
+    @media screen and (max-width: 1300px) and (min-width: 900px) {
+        .h2-title {
+            margin: 0;
+            margin-top: -55px;
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width: 899px) and (min-width: 500px) {
+        .h2-title {
+            margin: 0;
+            margin-top: -9.93rem;
+        }
+        h2 {
+            font-size: 1.7rem;
+            padding: .5rem;
+        }
+        .html-div {
+            margin: 5rem 0 0rem 1rem;
+        }
+        .to-understand {
+            margin-top: 11rem;
+        }
+        .card-010 {
+            text-align: center;
+            padding: 3.12rem;
+            margin-left: 5.92rem;
+        }
+        aside {
+            margin-top: 3rem;
+        }
+    }
+    
+    @media screen and (max-width: 499px) and (min-width: 400px) {
+        .hero-content h1 {
+            text-transform: uppercase;
+            font-size: 3rem;
+            text-shadow: -0.07rem -0.18rem 0.37rem #333;
+        }
+        .img1 p {
+            background-color: #393535;
+            color: white;
+            margin: 0;
+            padding: 0.3rem;
+            text-transform: uppercase;
+            letter-spacing: 0.062rem;
+            font-size: 01rem;
+            text-align: center;
+        }
+        .h2-title {
+            background-color: #aca6a6;
+            margin-top: -18.5rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        .card-010 {
+            text-align: center;
+            padding: 1.8rem;
+            margin-left: 0px;
+            width: 100%;
+        }
+        .h3-html {
+            font-size: 1.8rem;
+            margin-top: -4rem;
+            margin-bottom: 2.5rem;
+        }
+        .html-img,
+        .css-img,
+        .js-img {
+            float: left;
+            max-width: 35%;
+            margin-right: 2rem;
+            width: 12rem;
+            height: 12rem;
+        }
+        .html-div,
+        .css-div,
+        .js-div {
+            margin: 10rem 0 1rem 1rem;
+        }
+        .to-understand {
+            margin-top: 4rem;
+        }
+        aside {
+            margin-top: 2rem;
+        }
+    }
+    
+    @media screen and (max-width: 399px) and (min-width: 350px) {
+        .hero {
+            height: 25rem;
+        }
+        .hero-content {
+            margin-top: 8rem;
+        }
+        .hero-content h1 {
+            font-size: 3rem;
+        }
+        .img1 p {
+            font-size: 1.2rem;
+            padding: 3px;
+            text-align: center;
+        }
+        .content-header {
+            margin-top: 9rem;
+        }
+        .h2-title {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .card-010 {
+            text-align: center;
+            padding: 1.8rem;
+            margin-left: 0px;
+            width: 100%;
+        }
+        .porIsso {
+            font-size: 1.8rem;
+            margin: 2.5rem 0 3.5rem 0;
+        }
+        .h3-html {
+            font-size: 1.8rem;
+            margin-top: -4rem;
+            margin-bottom: 2.5rem;
+        }
+        .html-img,
+        .js-img {
+            float: left;
+            max-width: 35%;
+            width: 12rem;
+            height: 12rem;
+        }
+        .html-div,
+        .css-div,
+        .js-div {
+            margin: 7rem 0 0rem 1rem;
+        }
+        .css-html {
+            font-size: 1.8rem;
+            margin-top: -4rem;
+            margin-bottom: 2.5rem;
+        }
+        .css-img {
+            float: left;
+            max-width: 35%;
+            margin-right: 2rem;
+            width: 12rem;
+            height: 12rem;
+        }
+        .to-understand {
+            margin-top: 4rem;
+        }
+        aside {
+            margin-top: 2rem;
+        }
+        .rodape {
+            height: 3rem;
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+            text-shadow: 0.035rem 0.035rem 0.035rem black;
+            background: #6b6c68;
+            line-height: 3rem;
+        }
+    }
+    
+    @media screen and (max-width: 349px) and (min-width: 250px) {
+        .hero {
+            height: 20rem;
+        }
+        .hero-content {
+            margin-top: 5rem;
+        }
+        .hero-content h1 {
+            font-size: 2.5rem;
+        }
+        .hero-content p {
+            font-size: 1.5rem;
+            padding: 0.6rem;
+        }
+        .img1 p {
+            font-size: 1.2rem;
+            padding: 3px;
+            text-align: center;
+        }
+        .content-header {
+            margin-top: 8rem;
+        }
+        .h2-title {
+            font-size: 1.2rem;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        .card-010 {
+            text-align: center;
+            padding: 1.8rem;
+            margin-left: 0px;
+            width: 100%;
+        }
+        .css-html {
+            font-size: 1.8rem;
+            margin-top: -4rem;
+            margin-bottom: 2.5rem;
+        }
+        .porIsso {
+            font-size: 1.8rem;
+            margin: 2.5rem 0 3.5rem 0;
+        }
+        .h3-html {
+            font-size: 1.8rem;
+            margin-top: -4rem;
+            margin-bottom: 2.5rem;
+        }
+        .html-img,
+        .css-img {
+            float: left;
+            max-width: 35%;
+            margin-right: 2rem;
+            width: 12rem;
+            height: 12rem;
+        }
+        .html-div,
+        .css-div,
+        .js-div {
+            margin: 7rem 0 0rem 1rem;
+        }
+        .js-img {
+            float: left;
+            max-width: 35%;
+            margin-right: 2rem;
+            width: 12rem;
+            height: 12rem;
+        }
+        .to-understand {
+            margin-top: 4rem;
+        }
+        aside {
+            margin-top: 2rem;
+        }
+        .rodape {
+            height: 3rem;
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+            text-shadow: 0.035rem 0.035rem 0.035rem black;
+            background: #6b6c68;
+            line-height: 3rem;
+        }
+    }
