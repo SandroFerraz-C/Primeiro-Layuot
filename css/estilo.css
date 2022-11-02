@@ -410,6 +410,9 @@
     }
     
     @media screen and (max-width: 399px) and (min-width: 350px) {
+        body {
+            background: #c45367;
+        }
         .hero {
             height: 25rem;
         }
@@ -535,10 +538,11 @@
             margin-bottom: 2.5rem;
         }
         .html-img,
-        .css-img {
+        .css-img,
+        .js-img {
             float: left;
-            max-width: 35%;
             margin-right: 2rem;
+            max-width: 35%;
             width: 12rem;
             height: 12rem;
         }
@@ -546,13 +550,6 @@
         .css-div,
         .js-div {
             margin: 7rem 0 0rem 1rem;
-        }
-        .js-img {
-            float: left;
-            max-width: 35%;
-            margin-right: 2rem;
-            width: 12rem;
-            height: 12rem;
         }
         .to-understand {
             margin-top: 4rem;
@@ -562,11 +559,6 @@
         }
         .rodape {
             height: 3rem;
-            color: white;
             font-size: 1rem;
-            text-align: center;
-            text-shadow: 0.035rem 0.035rem 0.035rem black;
-            background: #6b6c68;
-            line-height: 3rem;
         }
     }
