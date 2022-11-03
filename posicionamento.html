@@ -2,343 +2,362 @@
 <html>
 
 <head>
-    <title>Posicionamento</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, sitelinkssearchbox, translate, imageindex, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="http://localhost/primeiro_layout/posicionamento.html">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="main">
+    <meta property="og:title" content="posicionamento">
+    <meta property="og:url" content="http://localhost/primeiro_layout/posicionamento.html">
+    <meta property="og:site_name" content="posicionamento">
+    <meta name="keywords" content="html, javascript, programacao, js, css, web, tecnologia, desenvolvimento, web design, ">
     <meta name="Author" content="Sandro Ferraz">
-    <meta name="descrition" content="explicacao sobre posicionamento de seletores">
-    <meta name="keywords" content="html5, tecnologia, programação, css, javascrip, como programar">
+    <meta name="description" content="Aprenda sobre posicionamento HTML">
+    <meta property="og:description" content="Aprenda sobre posicionamento HTML">
+    <title>Posicionamento</title>
     <link rel="stylesheet" href="css/posicionamento.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733465042756742" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
 
-    <header>
-        <h1>Posisionamento</h1>
+    <div class="foremost">
+        <header>
+            <h1>Posisionamento</h1>
 
-        <h2>
-            &#54; Estrat&eacute;gias para melhorar a organiza&ccedil;&atilde;o do seu <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
-        </h2>
-
-        <p>
-            Algumas estrategias simples podem ser utilizadas para deixar o seu <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> mais organizado, consitente e de f&aacute;cil manuten&ccedil;&atilde;o
-        </p>
-
-    </header>
-
-    <main>
-
-        <h3>&#49;&#186; Utilize a Declara&ccedil;&atilde;o abreviada das propriedades</h3>
-
-        <p>A forma abreviada de propriedades <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> poupa linhas de c&oacute;digos e resume as sequ&ecirc;ncias de declara&ccedil;&otilde;es, deixando o c&oacute;digo limpo e f&aacute;cil
-            de entender
-        </p>
-
-        <p>Veja o exemplo de uma casse sem o uso de declara&ccedil;&otilde;es abreviadas&#58;</p>
-
-        <section class="box-01">
-            <p>&#46;box&#123;
-                <br/> margin&#45;top&#58;&#50;px&#59;
-                <br/> margin&#45;right&#58;&#50;px&#59;
-                <br/> margin&#45;bottom&#58;&#50;px&#59;
-                <br/> margin&#45;left&#58;&#50;px&#59;
-                <br/> font&#45;weight&#58;bold&#59;
-                <br/> font&#45;size&#58;&#49;&#50;px&#59;
-                <br/> line&#45;height&#58;&#49;&#52;px&#59;
-                <br/> font&#45;family&#58;Arial&#44; verdana&#59;
-                <br/> border&#45;width&#58; &#49;px&#59;
-                <br/> border&#45;style&#58; solid&#59;
-                <br/> border&#45;color&#58;&#35;fff&#59;
-                <br/> background&#45;image&#58;url&#40;imagens&#47;background&#46;gif&#41;&#59;
-                <br/> background&#45;repeat&#58;no&#45;repeat&#59;
-                <br/> background&#45;position&#58; &#48; &#49;&#53;px&#59;&#125;
-            </p>
-        </section>
-
-        <p>
-            Utilizando as declara&ccedil;&otilde;es abreviadas&#44; teriamos a seguinte defini&ccedil;&atilde;o para a mesma classe&#58;
-        </p>
-
-        <section>
-            <p>
-                &#46;box&#123;
-                <br/>margin&#58;&#50;px &#51;px &#53;px &#57;px&#59;
-                <br/>font&#58; bold &#49;&#50;px Arial&#44; Verdana&#59;
-                <br/>border&#58; &#49;px solid &#35;&#48;&#48;&#48;&#59;
-                <br/>backgroumd&#58;&#35;fff&#59;
-                <br/>url&#40;imagens&#47;background&#46;gif&#41; &#48; &#49;&#50;px no&#45;repeat&#59;&#125;&#59;
-            </p>
-        </section>
-
-        <h3>&#50;&#186; Utilize identa&ccedil;&atilde;o para elementos encadeados</h3>
-
-        <p>
-            Na utiliza&ccedil;&atilde;o de seletores contextuais que fazem uso de heran&ccedil;a&#44; tamb&eacute;m chamados de seletores encadeados&#44; uma op&ccedil;&atilde;o interessante &eacute; a identa&ccedil;&atilde;o dos n&iacute;veis de encadeamento para
-            melhor visualizar qual a rela&ccedil;&atilde;o entre determinadas classes e elementos&#46;
-        </p>
-
-        <p>Exemplo&#58;</p>
-
-        <section>
-            <p>
-                h&#51; &#123;
-                <br/>font&#58; italic bold &#49;&#49;&#59;
-                <br/> Arial&#44; helvetica&#44; sans&#45;serif&#59;
-                <br/> &#125;&#59;
-                <br/>
-                <br/> h&#51; a &#44; h&#51; a&#58;visited&#123;
-                <br/> color&#58;&#35;&#48;&#48;&#48;&#59;
-                <br/> &#125;&#59;
-            </p>
-        </section>
-
-        <p>
-            Neste exemplo&#44; temos a defini&ccedil;&atilde;o de estilo para o elemento <b>h&#51;&#46;</b> Abaixo&#44; o elemento a que estiver dentro da tag <b>h&#51;</b>&#44; receber&aacute; a cor preta&#46; note que&#44; com a identa&ccedil;&atilde;o&#44;
-            &eacute; possivel compreender melhor que o estilo dos seletores encadeados est&aacute; relacionada com o seletor <b>h&#51;</b>&#46;
-        </p>
-
-        <p>
-            Entretanto&#44; esta t&eacute;cnica pode se tornar contraproducente caso haja muitoss n&iacute;veis de encadeamento&#44; por exemplo&#58;
-        </p>
-
-        <section>
-            <p>
-                &#46;content
-                <br/> &#123;&#46;&#46;&#46;&#125;
-                <br/>
-                <br/> &#46;content p
-                <br/> &#123;&#46;&#46;&#46;&#125;
-                <br/>
-                <br/> &#46;content p strong
-                <br/> &#123;&#46;&#46;&#46;&#125;
-                <br/>
-                <br/> &#46;content p strong a
-                <br/> &#123;&#46;&#46;&#46;&#125;
-            </p>
-        </section>
-
-        <p>
-            Portanto&#44; sugiro utilizar apenas o primeiro n&iacute;vel de identa&ccedil;&atilde;o para relacionar com o contexto do primeiro elemento&#44; caso opte por esta t&eacute;cnica&#46;
-        </p>
-
-        <h3>
-            &#51;&#186; Fa&ccedil;a uma divis&atilde;o l&oacute;gica do seu <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
-        </h3>
-
-        <p>
-            organize o estilo em determinadas se&ccedil;&otilde;es&#44; para facilitar a cria&ccedil;&atilde;o e a manuten&ccedil;&atilde;o dos estilos e marque estas divis&otilde;es com coment&aacute;rios <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>&#46;
-        </p>
-
-        <p>Uma sugest&atilde;o de se&ccedil;&otilde;es para realizar esta divis&atilde;o&#58;</p>
-
-        <ul>
-            <li>
-                Global &#40;reset&#44; corpo da pagina&#44; estilo padr&atilde;o para par&aacute;grafos&#44; listas e etc&#46;&#41;
-            </li>
-
-            <li>Cabe&ccedil;alho da p&aacute;gina</li>
-
-            <li>Estrutura da p&aacute;gina</li>
-
-            <li>Rodap&eacute;</li>
-
-            <li>Estilos de t&iacute;tulos</li>
-
-            <li>Estilo de texto</li>
-
-            <li>Navega&ccedil;&atilde;o</li>
-
-            <li>Formul&aacute;rios</li>
-
-            <li>Extras ou Miscel&acirc;neas</li>
-
-        </ul>
-
-        <p>
-            Os estilos de t&iacute;tulos e est&iacute;los de texto diferem dos estilos globais pois cont&eacute;m tamb&eacute;m defini&ccedil;&otilde;es de classes&#44; enquanto que os estilos globais tratam apenas de defini&ccedil;&otilde;es para os seletores de
-            tas&#46;
-        </p>
-
-        <p>
-            Exemplos de coment&aacute;rios <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> que voc&ecirc; pode utilizar para marcar a divis&atilde;o de se&ccedil;&otilde;es&#58;&#46;
-        </p>
-
-        <section>
+            <h2>
+                &#54; Estrat&eacute;gias para melhorar a organiza&ccedil;&atilde;o do seu <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
+            </h2>
 
             <p>
-                &#47;&#42; &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
-                <br/> &#47;&#42; &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#62;&#62;&#62; <span class="uppercase">global</span> &#60;&#60;&#60;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
-                <br/>&#47;&#42; &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
-                <br/>
-                <br/>
-                <br/>&#47;&#42; <span class="uppercase">global</span> &#62; <span class="uppercase">reset</span>
-                <br/> &#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;
-                <br/>
-                <br/>
-                <br/>&#47;&#42;&#42;
-                <br/>&#42; Estilos Globais
-                <br/> &#42;
-                <br/>&#42; &#64;section global reset
-                <br/>&#42;&#47;
+                Algumas estrategias simples podem ser utilizadas para deixar o seu <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> mais organizado, consitente e de f&aacute;cil manuten&ccedil;&atilde;o
             </p>
-        </section>
+
+        </header>
+
+        <main>
+
+            <h3>&#49;&#186; Utilize a Declara&ccedil;&atilde;o abreviada das propriedades</h3>
+
+            <p>A forma abreviada de propriedades <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> poupa linhas de c&oacute;digos e resume as sequ&ecirc;ncias de declara&ccedil;&otilde;es, deixando o c&oacute;digo limpo e f&aacute;cil
+                de entender
+            </p>
+
+            <p>Veja o exemplo de uma casse sem o uso de declara&ccedil;&otilde;es abreviadas&#58;</p>
+
+            <section class="box-01">
+                <p>&#46;box&#123;
+                    <br/> margin&#45;top&#58;&#50;px&#59;
+                    <br/> margin&#45;right&#58;&#50;px&#59;
+                    <br/> margin&#45;bottom&#58;&#50;px&#59;
+                    <br/> margin&#45;left&#58;&#50;px&#59;
+                    <br/> font&#45;weight&#58;bold&#59;
+                    <br/> font&#45;size&#58;&#49;&#50;px&#59;
+                    <br/> line&#45;height&#58;&#49;&#52;px&#59;
+                    <br/> font&#45;family&#58;Arial&#44; verdana&#59;
+                    <br/> border&#45;width&#58; &#49;px&#59;
+                    <br/> border&#45;style&#58; solid&#59;
+                    <br/> border&#45;color&#58;&#35;fff&#59;
+                    <br/> background&#45;image&#58;url&#40;imagens&#47;background&#46;gif&#41;&#59;
+                    <br/> background&#45;repeat&#58;no&#45;repeat&#59;
+                    <br/> background&#45;position&#58; &#48; &#49;&#53;px&#59;&#125;
+                </p>
+            </section>
+
+            <p>
+                Utilizando as declara&ccedil;&otilde;es abreviadas&#44; teriamos a seguinte defini&ccedil;&atilde;o para a mesma classe&#58;
+            </p>
+
+            <section class="box-01">
+                <p>
+                    &#46;box&#123;
+                    <br/>margin&#58;&#50;px &#51;px &#53;px &#57;px&#59;
+                    <br/>font&#58; bold &#49;&#50;px Arial&#44; Verdana&#59;
+                    <br/>border&#58; &#49;px solid &#35;&#48;&#48;&#48;&#59;
+                    <br/>backgroumd&#58;&#35;fff&#59;
+                    <br/>url&#40;imagens&#47;background&#46;gif&#41; &#48; &#49;&#50;px no&#45;repeat&#59;&#125;&#59;
+                </p>
+            </section>
+
+            <h3>&#50;&#186; Utilize identa&ccedil;&atilde;o para elementos encadeados</h3>
+
+            <p>
+                Na utiliza&ccedil;&atilde;o de seletores contextuais que fazem uso de heran&ccedil;a&#44; tamb&eacute;m chamados de seletores encadeados&#44; uma op&ccedil;&atilde;o interessante &eacute; a identa&ccedil;&atilde;o dos n&iacute;veis de encadeamento para
+                melhor visualizar qual a rela&ccedil;&atilde;o entre determinadas classes e elementos&#46;
+            </p>
+
+            <p>Exemplo&#58;</p>
+
+            <section class="box-01">
+                <p>
+                    h&#51; &#123;
+                    <br/>font&#58; italic bold &#49;&#49;&#59;
+                    <br/> Arial&#44; helvetica&#44; sans&#45;serif&#59;
+                    <br/> &#125;&#59;
+                    <br/>
+                    <br/> h&#51; a &#44; h&#51; a&#58;visited&#123;
+                    <br/> color&#58;&#35;&#48;&#48;&#48;&#59;
+                    <br/> &#125;&#59;
+                </p>
+            </section>
+
+            <p>
+                Neste exemplo&#44; temos a defini&ccedil;&atilde;o de estilo para o elemento <b>h&#51;&#46;</b> Abaixo&#44; o elemento a que estiver dentro da tag <b>h&#51;</b>&#44; receber&aacute; a cor preta&#46; note que&#44; com a identa&ccedil;&atilde;o&#44;
+                &eacute; possivel compreender melhor que o estilo dos seletores encadeados est&aacute; relacionada com o seletor <b>h&#51;</b>&#46;
+            </p>
+
+            <p>
+                Entretanto&#44; esta t&eacute;cnica pode se tornar contraproducente caso haja muitoss n&iacute;veis de encadeamento&#44; por exemplo&#58;
+            </p>
+
+            <section class="box-01">
+                <p>
+                    &#46;content
+                    <br/> &#123;&#46;&#46;&#46;&#125;
+                    <br/>
+                    <br/> &#46;content p
+                    <br/> &#123;&#46;&#46;&#46;&#125;
+                    <br/>
+                    <br/> &#46;content p strong
+                    <br/> &#123;&#46;&#46;&#46;&#125;
+                    <br/>
+                    <br/> &#46;content p strong a
+                    <br/> &#123;&#46;&#46;&#46;&#125;
+                </p>
+            </section>
+
+            <p>
+                Portanto&#44; sugiro utilizar apenas o primeiro n&iacute;vel de identa&ccedil;&atilde;o para relacionar com o contexto do primeiro elemento&#44; caso opte por esta t&eacute;cnica&#46;
+            </p>
+
+            <h3>
+                &#51;&#186; Fa&ccedil;a uma divis&atilde;o l&oacute;gica do seu <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
+            </h3>
+
+            <p>
+                organize o estilo em determinadas se&ccedil;&otilde;es&#44; para facilitar a cria&ccedil;&atilde;o e a manuten&ccedil;&atilde;o dos estilos e marque estas divis&otilde;es com coment&aacute;rios <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>&#46;
+            </p>
+
+            <p>Uma sugest&atilde;o de se&ccedil;&otilde;es para realizar esta divis&atilde;o&#58;</p>
+
+            <ul>
+                <li>
+                    Global &#40;reset&#44; corpo da pagina&#44; estilo padr&atilde;o para par&aacute;grafos&#44; listas e etc&#46;&#41;
+                </li>
+
+                <li>Cabe&ccedil;alho da p&aacute;gina</li>
+
+                <li>Estrutura da p&aacute;gina</li>
+
+                <li>Rodap&eacute;</li>
+
+                <li>Estilos de t&iacute;tulos</li>
+
+                <li>Estilo de texto</li>
+
+                <li>Navega&ccedil;&atilde;o</li>
+
+                <li>Formul&aacute;rios</li>
+
+                <li>Extras ou Miscel&acirc;neas</li>
+
+            </ul>
+
+            <p>
+                Os estilos de t&iacute;tulos e est&iacute;los de texto diferem dos estilos globais pois cont&eacute;m tamb&eacute;m defini&ccedil;&otilde;es de classes&#44; enquanto que os estilos globais tratam apenas de defini&ccedil;&otilde;es para os seletores de
+                tas&#46;
+            </p>
+
+            <p>
+                Exemplos de coment&aacute;rios <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> que voc&ecirc; pode utilizar para marcar a divis&atilde;o de se&ccedil;&otilde;es&#58;&#46;
+            </p>
+
+            <section class="box-01">
+
+                <p>
+                    &#47;&#42; &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
+                    <br/> &#47;&#42; &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#62;&#62;&#62; <span class="uppercase">global</span> &#60;&#60;&#60;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
+                    <br/>&#47;&#42; &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
+                    <br/>
+                    <br/>
+                    <br/>&#47;&#42; <span class="uppercase">global</span> &#62; <span class="uppercase">reset</span>
+                    <br/> &#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;&#47;
+                    <br/>
+                    <br/>
+                    <br/>&#47;&#42;&#42;
+                    <br/>&#42; Estilos Globais
+                    <br/> &#42;
+                    <br/>&#42; &#64;section global reset
+                    <br/>&#42;&#47;
+                </p>
+            </section>
 
 
-        <p>
-            O terceiro exemplo &eacute; do CSSDoc&#44; um projeto que visa estabelecer um padr&atilde;o para documenta&ccedil;&atilde;o de <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> utilizando coment&aacute;rios&#44;
-            mas isso &eacute; assunto para outro artigo&#46;
-        </p>
+            <p>
+                O terceiro exemplo &eacute; do CSSDoc&#44; um projeto que visa estabelecer um padr&atilde;o para documenta&ccedil;&atilde;o de <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> utilizando coment&aacute;rios&#44;
+                mas isso &eacute; assunto para outro artigo&#46;
+            </p>
 
-        <a href="http://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">Artigo externo</a>
+            <a href="http://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" class="external-article">Artigo externo</a>
 
-        <h3>
-            &#52;&#186; Estabele&ccedil;a padr&otilde;es de nomenclaturas para classes e IDs&#46;
-        </h3>
+            <h3>
+                &#52;&#186; Estabele&ccedil;a padr&otilde;es de nomenclaturas para classes e IDs&#46;
+            </h3>
 
-        <p>
-            O nome de uma classe ou um <span class="uppercase">id</span> deve possibilitar a identifica&ccedil;&atilde;o de sua finalidade&#44; de seu uso e de dua sem&acirc;ntica&#46;
-        </p>
+            <p>
+                O nome de uma classe ou um <span class="uppercase">id</span> deve possibilitar a identifica&ccedil;&atilde;o de sua finalidade&#44; de seu uso e de dua sem&acirc;ntica&#46;
+            </p>
 
-        <p>
-            Deve&#45;se evitar nomear classes e <span class="uppercase">id</span>s indicando aspectos est&eacute;ticos e de posicionamento&#46;
-        </p>
-        <p>Imagine as segintes situa&ccedil;&otilde;es&#58;&#46;</p>
+            <p>
+                Deve&#45;se evitar nomear classes e <span class="uppercase">id</span>s indicando aspectos est&eacute;ticos e de posicionamento&#46;
+            </p>
+            <p>Imagine as segintes situa&ccedil;&otilde;es&#58;&#46;</p>
 
-        <ol>
-            <li>
-                Voc&ecirc; nomeia uma classe como&#58; &#34;conteudoEsquerda&#34;&#44; e depois precisa mudar o posicionamento para a direita durante um redesing&#46; Ser&aacute; mais custoso&#44; pois ter&aacute; que mudar o nome da classe e a inten&ccedil;&atilde;o
-                n&atilde;o &eacute; essa;
-            </li>
+            <ol>
+                <li>
+                    Voc&ecirc; nomeia uma classe como&#58; &#34;conteudoEsquerda&#34;&#44; e depois precisa mudar o posicionamento para a direita durante um redesing&#46; Ser&aacute; mais custoso&#44; pois ter&aacute; que mudar o nome da classe e a inten&ccedil;&atilde;o
+                    n&atilde;o &eacute; essa;
+                </li>
 
-            <li>
-                Voc&ecirc; nomeia uma classe como tituloVerde&#46; Depos&#44; precisa fazer uma manunten&ccedil;&atilde;o r&aacute;pida&#44; pois o cliente quer o t&iacute;tulo em vermelho&#46; Voc&ecirc; muda apenas no <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>                e a classe perde toda a sem&acirc;ntica&#46;
-            </li>
-        </ol>
+                <li>
+                    Voc&ecirc; nomeia uma classe como tituloVerde&#46; Depos&#44; precisa fazer uma manunten&ccedil;&atilde;o r&aacute;pida&#44; pois o cliente quer o t&iacute;tulo em vermelho&#46; Voc&ecirc; muda apenas no <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>                    e a classe perde toda a sem&acirc;ntica&#46;
+                </li>
+            </ol>
 
-        <p>
-            &eacute; importante definir tamb&eacute;m qual a forma de escrever as classes e <span class="uppercase">id</span>s&#46; Por exemplo&#58; voc&ecirc; utiliza camelCase&#44; outro disigner utiliza nome-com-h&iacute;fen e outro utiliza nome_com_underline&#46;
-            Estabele&ccedil;a um padr&atilde;o junto a equipe&#44; para que as nomenclaturas permane&ccedil;am consistentes&#46; Pode ser&#44; por exemplo&#44; com h&iacute;fem para classe e camel case para <span class="uppercase">id</span>&#46;
-        </p>
+            <p>
+                &eacute; importante definir tamb&eacute;m qual a forma de escrever as classes e <span class="uppercase">id</span>s&#46; Por exemplo&#58; voc&ecirc; utiliza camelCase&#44; outro disigner utiliza nome-com-h&iacute;fen e outro utiliza nome_com_underline&#46;
+                Estabele&ccedil;a um padr&atilde;o junto a equipe&#44; para que as nomenclaturas permane&ccedil;am consistentes&#46; Pode ser&#44; por exemplo&#44; com h&iacute;fem para classe e camel case para <span class="uppercase">id</span>&#46;
+            </p>
 
-        <h3>&#53;&#186; Especialize classes ao inv&eacute;s de criar seletores semelhantes&#52;&#46;</h3>
+            <h3>&#53;&#186; Especialize classes ao inv&eacute;s de criar seletores semelhantes&#52;&#46;</h3>
 
-        <p>
-            No &#40;X&#41;<span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html&#44;</abbr></span> podemos utilizar mais de uma classe para o mesmo elemento&#52;&#46; Com isso podemos especializar os elementos que utilizam uma determinada
-            classe&#52;&#46; Esta t&eacute;cnica e &uacute;til quando precisa-se aplicar apenas alguma propriedade diferente a um elemento que j&aacute; utiliza uma classe&#44; evitando a duplica&ccedil;&atilde;o de estilos ou utiliza&ccedil;&atilde;o
-            de estilo inline&#52;&#46;
-        </p>
+            <p>
+                No &#40;X&#41;<span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html&#44;</abbr></span> podemos utilizar mais de uma classe para o mesmo elemento&#52;&#46; Com isso podemos especializar os elementos que utilizam uma
+                determinada classe&#52;&#46; Esta t&eacute;cnica e &uacute;til quando precisa-se aplicar apenas alguma propriedade diferente a um elemento que j&aacute; utiliza uma classe&#44; evitando a duplica&ccedil;&atilde;o de estilos ou utiliza&ccedil;&atilde;o
+                de estilo inline&#52;&#46;
+            </p>
 
-        <p>
-            No exemplo abaixo&#44; temos dois par&aacute;grafos com a mesma classe&#44; verMais e o <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> correspondente&#58;
-        </p>
+            <p>
+                No exemplo abaixo&#44; temos dois par&aacute;grafos com a mesma classe&#44; verMais e o <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> correspondente&#58;
+            </p>
 
-        <h4><span class="uppercase"><abbr title="HyperText Markup Language&#44;">html</abbr></span></h4>
+            <h4><span class="uppercase"><abbr title="HyperText Markup Language&#44;">html</abbr></span></h4>
 
-        <section>
+            <section class="box-01">
 
-            <div>
-                <xmp>
+                <div class="sumir">
+
+                    &#60;h2&#62;Artigos Recentes &#60;h2&#47;&#62; &#46;&#46;&#46; &#60;p class&#61;&#34;erMais&#34;&#62; &#60;p&#47;&#62; &#60;a href&#61;&#34;artigos&#46;php&#34;&#62;Ver Mais &#60;a&#47;&#62;
+                </div>
+
+                <xmp class="xmp-a">
                     <h2>Artigos Recentes</h2>
                 </xmp>
                 &#46;&#46;&#46;
-                <xmp>
-                    <p class="erMais"></p>
+                <xmp class="xmp-a">
+                    <p class="verMais"></p>
                 </xmp>
 
-                <xmp> <a href="artigos.php">Ver Mais</a> </xmp>
+                <xmp class="xmp-a"> <a href="artigos.php">Ver Mais</a> </xmp>
 
-            </div>
 
-            <div>
-                <xmp>
+                <div class="sumir">
+                    &#60;h2&#62; Artigos Mais Comentados &#60;h2&#47;&#62; &#46;&#46;&#46; &#60;p class&#61;&#34;verMais semBorda&#34;&#62; &#60;a href&#61;&#34;artigos&#95;comentarios&#46;php&#34;&#62;Ver Mais &#60;a&#47;&#62; &#60;p&#47;&#62;
+                </div>
+
+
+                <xmp class="xmp-a">
                     <h2> Artigos Mais Comentados</h2>
                 </xmp>&#46;&#46;&#46;
 
-                <xmp>
+                <xmp class="xmp-a">
                     <p class="verMais semBorda">
                         <a href="artigos_comentarios.php">Ver Mais</a>
                     </p>
                 </xmp>
-            </div>
 
-        </section>
 
-        <h4><span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span></h4>
+            </section>
 
-        <section>
+            <h4><span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span></h4>
+
+            <section class="box-01">
+                <p>
+                    &#46;verMais &#123;
+                    <br/>border&#45;top&#58; &#48;px solid &#35;ccc&#59;
+                    <br/>font&#45;size&#58;&#50;&#48;px&#59;
+                    <br/>line&#45;height&#58; &#50;&#54;px&#59;
+                    <br/>margin&#58; &#48; &#48; &#49;&#48;px &#48;&#59;
+                    <br/>text&#45;align&#58; right&#59;
+                    <br/>text&#45;transform&#58; lowercase&#59;
+                    <br/>&#125;
+                </p>
+                <br/>
+
+                <p>&#46;semBorda&#123;</p>
+                <p>border&#58; none&#59;</p>
+                <p>&#125;</p>
+
+            </section>
+
             <p>
-                &#46;verMais &#123;
-                <br/>border&#45;top&#58; &#48;px solid &#35;ccc&#59;
-                <br/>font&#45;size&#58;&#50;&#48;px&#59;
-                <br/>line&#45;height&#58; &#50;&#54;px&#59;
-                <br/>margin&#58; &#48; &#48; &#49;&#48;px &#48;&#59;
-                <br/>text&#45;align&#58; right&#59;
-                <br/>text&#45;transform&#58; lowercase&#59;
-                <br/>&#125;
-            </p>
-            <br/>
-
-            <p>&#46;semBorda&#123;</p>
-            <p>border&#58; none&#59;</p>
-            <p>&#125;</p>
-
-        </section>
-
-        <p>
-            Dessa forma&#44; especializamos os elementos com a classe verMais&#44; combinando mais uma classe que modifica apenas uma das propriedades&#44; ao inv&eacute;s de criar uma classe verMais&#50; com a mesma defii&ccedil;&otilde;es&#44; retirando apenas
-            a borda&#48;
-        </p>
-
-        <h3>&#54;&#186; Ordene as propriedades dos seletores&#46;</h3>
-
-        <p>
-            Independente se voc&ecirc; utiliza uma propriedade dor linhas ou todas as propriedades <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> em uma &uacute;nica linha&#44; escolher uma ordem para as propriedadese &eacute;
-            importante para facilitar a identifica&ccedil;&atilde;o&#44; a adi&ccedil;&atilde;o de novas propriedades e tamb&eacute;m ajuda e encontra mais r&aacute;pido uma propriedade que voc&ecirc; precisa alterar&#46;
-        </p>
-
-        <p>
-            Longe de ser pragm&aacute;tica e indicar apenas &#49; t&eacute;cnica com a qual tive contato &#40; e que muitas pessoas &agrave;s vezes t&ecirc;m dificuldade de se adapitar&#41;&#44; suiro duas formas de realizaressa ordena&ccedil;&atilde;o&#58;&#46;
-        </p>
-
-        <h4>Por ordem alfab&eacute;tica</h4>
-
-        <p>
-            No come&ccedil;o &eacute; um pouco mais complicado para conseguir locaizar determinadas propriedades&#44; pois acaba quebrando um pouco a organizs&ccedil;&atilde;o l&oacute;gica&#46; Por exemplo&#44; neste m&eacute;todo propriedades como width e height
-            ficar&atilde;o amplamente distanciadas se o seletor contiver margin&#44; padding&#44; text&#45;align&#44; text&#45;transform&#44; entre outros&#46; Por&eacute;m&#44; e um pardr&atilde;o mais conciso e que n&atilde;o gera ambiguidades de utiliza&ccedil;&atilde;o&#46;
-        </p>
-
-        <h4>Por agrupamento l&oacute;gico</h4>
-
-        <p>
-            Este m&eacute;todo pode ser mais produtivo&#44; mas deve ser muito bem definido e documentado como ser&aacute; o agrupamento e qual ser&aacute; a ordem que estes agrupamentos aparecer&atilde;o nos seletores&#46; Al&eacute;m disso&#44; deve&#45;se ter
-            certeza de que todas as propriedades foram devidamente mapeadas e agrupadas&#44; para n&atilde;o se surpreender com uma propriedade &#34;esquecida&#34; e depois n&atilde;o conseguir saber onde ir&aacute; coloc&aacute;&#45;la no seletor&#46;
-        </p>
-
-        <p>Um exemplo de agrupamento l&oacute;gico&#46;</p>
-
-        <section>
-            <p>
-                &#46;seletor &#123;
-                <br/>&#91;fonte e propriedades de texto&#93;
-                <br/>&#91;plano de fundo&#93;
-                <br/>&#91;tamanho&#93;
-                <br/>&#91;espa&ccedil;amentos&#93;
-                <br/>posicionamento&#93;
-                <br/>&#125;
+                Dessa forma&#44; especializamos os elementos com a classe verMais&#44; combinando mais uma classe que modifica apenas uma das propriedades&#44; ao inv&eacute;s de criar uma classe verMais&#50; com a mesma defii&ccedil;&otilde;es&#44; retirando apenas
+                a borda&#48;
             </p>
 
-        </section>
+            <h3>&#54;&#186; Ordene as propriedades dos seletores&#46;</h3>
 
-        <p>
-            Com t&eacute;cnicas simples como esta &eacute; possivel tornar o <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> mais funcional&#44; sem&acirc;ntico e compreens&iacute;vel&#44; mantendo&#44; principalmente&#44;
-            a flexibilidade do código&#46;
-        </p>
+            <p>
+                Independente se voc&ecirc; utiliza uma propriedade dor linhas ou todas as propriedades <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> em uma &uacute;nica linha&#44; escolher uma ordem para as propriedadese
+                &eacute; importante para facilitar a identifica&ccedil;&atilde;o&#44; a adi&ccedil;&atilde;o de novas propriedades e tamb&eacute;m ajuda e encontra mais r&aacute;pido uma propriedade que voc&ecirc; precisa alterar&#46;
+            </p>
 
-        <p>Fonte externa sobre o assunto: <a href="https://tableless.com.br/6-estrategias-para-melhorar-a-organizacao-do-seu-css-2/">Tableless</a></p>
+            <p>
+                Longe de ser pragm&aacute;tica e indicar apenas &#49; t&eacute;cnica com a qual tive contato &#40; e que muitas pessoas &agrave;s vezes t&ecirc;m dificuldade de se adapitar&#41;&#44; suiro duas formas de realizaressa ordena&ccedil;&atilde;o&#58;&#46;
+            </p>
 
-        <a href="index.html"><button>Voltar</button></a>
-    </main>
+            <h4>Por ordem alfab&eacute;tica</h4>
 
+            <p>
+                No come&ccedil;o &eacute; um pouco mais complicado para conseguir locaizar determinadas propriedades&#44; pois acaba quebrando um pouco a organizs&ccedil;&atilde;o l&oacute;gica&#46; Por exemplo&#44; neste m&eacute;todo propriedades como width e height
+                ficar&atilde;o amplamente distanciadas se o seletor contiver margin&#44; padding&#44; text&#45;align&#44; text&#45;transform&#44; entre outros&#46; Por&eacute;m&#44; e um pardr&atilde;o mais conciso e que n&atilde;o gera ambiguidades de
+                utiliza&ccedil;&atilde;o&#46;
+            </p>
+
+            <h4>Por agrupamento l&oacute;gico</h4>
+
+            <p>
+                Este m&eacute;todo pode ser mais produtivo&#44; mas deve ser muito bem definido e documentado como ser&aacute; o agrupamento e qual ser&aacute; a ordem que estes agrupamentos aparecer&atilde;o nos seletores&#46; Al&eacute;m disso&#44; deve&#45;se ter
+                certeza de que todas as propriedades foram devidamente mapeadas e agrupadas&#44; para n&atilde;o se surpreender com uma propriedade &#34;esquecida&#34; e depois n&atilde;o conseguir saber onde ir&aacute; coloc&aacute;&#45;la no seletor&#46;
+            </p>
+
+            <p>Um exemplo de agrupamento l&oacute;gico&#46;</p>
+
+            <section class="box-01">
+                <p>
+                    &#46;seletor &#123;
+                    <br/>&#91;fonte e propriedades de texto&#93;
+                    <br/>&#91;plano de fundo&#93;
+                    <br/>&#91;tamanho&#93;
+                    <br/>&#91;espa&ccedil;amentos&#93;
+                    <br/>posicionamento&#93;
+                    <br/>&#125;
+                </p>
+
+            </section>
+
+            <p>
+                Com t&eacute;cnicas simples como esta &eacute; possivel tornar o <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> mais funcional&#44; sem&acirc;ntico e compreens&iacute;vel&#44; mantendo&#44; principalmente&#44;
+                a flexibilidade do código&#46;
+            </p>
+
+            <p>Fonte externa sobre o assunto: <a href="https://tableless.com.br/6-estrategias-para-melhorar-a-organizacao-do-seu-css-2/">Tableless</a></p>
+
+            <a href="index.html"><button>Voltar</button></a>
+        </main>
+    </div>
 </body>
 
 </html>
