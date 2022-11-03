@@ -26,10 +26,357 @@ abbr {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 349px) and (min-width: 250px) {
+@media screen and (max-width: 2600px) and (min-width: 1451px) {
     body {
         margin: 1rem;
         max-width: 100%;
+        background-color: rgba(8, 179, 65, 0.467);
+    }
+    .foremost {
+        font-size: 3.2rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 4.5rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2,
+    h3 {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    p {
+        font-size: 2.6rem;
+    }
+    .box-01 {
+        border: 1px solid black;
+        background-color: #b8b3b8;
+        margin: 0.3rem;
+    }
+    .box-01 p {
+        font-size: 2.5rem;
+        margin: .5rem;
+    }
+    ul {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .external-article {
+        font-size: 2rem;
+    }
+    ol {
+        margin: 2.5rem;
+        font-size: 2.5rem;
+    }
+    li {
+        margin-top: 1.5rem;
+    }
+    .xmp-a {
+        display: inline-block;
+        margin-left: -2rem;
+        font-size: 3rem;
+    }
+    .sumir {
+        display: none;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        width: 13rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    #box1 {
+        height: 72rem;
+    }
+    button {
+        width: 10rem;
+        height: 5rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1301px) {
+    body {
+        margin: 1rem;
+        max-width: 100%;
+        background-color: rgba(195, 219, 203, 0.467);
+    }
+    .foremost {
+        font-size: 2.2rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2,
+    h3 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+    .box-01 {
+        border: 1px solid black;
+        background-color: #b8b3b8;
+        margin: 0.3rem;
+    }
+    .box-01 p {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+    ul {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .external-article {
+        font-size: 1rem;
+    }
+    ol {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+    li {
+        margin-top: 1.5rem;
+    }
+    .xmp-a {
+        display: inline-block;
+        margin-left: -7rem;
+        font-size: 1.8rem;
+    }
+    .sumir {
+        display: none;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        width: 13rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    #box1 {
+        height: 42rem;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+    body {
+        margin: 1rem;
+        max-width: 100%;
+        background-color: rgba(8, 48, 179, 0.467);
+    }
+    .foremost {
+        font-size: 1.9rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2,
+    h3 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+    .box-01 {
+        border: 1px solid black;
+        background-color: #b8b3b8;
+        margin: 0.3rem;
+    }
+    .box-01 p {
+        font-size: 1.3rem;
+        margin: .5rem;
+    }
+    ul {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .external-article {
+        font-size: 1rem;
+    }
+    ol {
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+    li {
+        margin-top: 1.5rem;
+    }
+    .xmp-a {
+        display: inline-block;
+        margin-left: -10rem;
+        font-size: 1.5rem;
+    }
+    .sumir {
+        display: none;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        width: 13rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    #box1 {
+        height: 37rem;
+    }
+}
+
+@media screen and (max-width: 899px) and (min-width: 500px) {
+    body {
+        margin: 1rem;
+        max-width: 100%;
+        background-color: rgba(228, 231, 227, 0.467);
+    }
+    .foremost {
+        font-size: 1.7rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2.3rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2,
+    h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1.3rem;
+    }
+    .box-01 {
+        border: 1px solid black;
+        background-color: #b8b3b8;
+        margin: 0.3rem;
+    }
+    .box-01 p {
+        font-size: 1.3rem;
+        margin: .5rem;
+    }
+    ul {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .external-article {
+        font-size: 1rem;
+    }
+    ol {
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
+    li {
+        margin-top: 1.5rem;
+    }
+    .xmp-a {
+        display: inline-block;
+        margin-left: -12rem;
+        font-size: 1.3rem;
+    }
+    .sumir {
+        display: none;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        width: 13rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+    #box1 {
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 499px) and (min-width: 400px) {
+    body {
+        margin: 1rem;
+        max-width: 100%;
+        background-color: rgba(179, 8, 22, 0.467);
+    }
+    .foremost {
+        font-size: 1.3rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2,
+    h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .box-01 {
+        border: 1px solid black;
+        background-color: #b8b3b8;
+        margin: 0.3rem;
+    }
+    .box-01 p {
+        font-size: 1rem;
+        margin: .2rem;
+    }
+    ul {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .external-article {
+        font-size: 1rem;
+    }
+    ol {
+        margin: 1rem;
+        font-size: 1rem;
+    }
+    li {
+        margin-top: 1.5rem;
+    }
+    .xmp-a {
+        display: none;
+    }
+    .sumir {
+        display: inline-block;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        width: 13rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+}
+
+@media screen and (max-width: 399px) and (min-width: 350px) {
+    body {
+        margin: 1rem;
+        max-width: 100%;
+        background-color: rgba(255, 17, 17, 0.973);
     }
     .foremost {
         font-size: 1.3rem;
@@ -70,6 +417,71 @@ abbr {
     }
     ol {
         margin: 1rem;
+        font-size: .8rem;
+    }
+    li {
+        margin-top: 1.5rem;
+    }
+    .xmp-a {
+        display: none;
+    }
+    .sumir {
+        display: inline-block;
+        font-size: 0.8rem;
+        margin: 0.5rem;
+        width: 13rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+}
+
+@media screen and (max-width: 349px) and (min-width: 250px) {
+    body {
+        margin: 1rem;
+        max-width: 100%;
+        background-color: rgba(153, 179, 8, 0.467);
+    }
+    .foremost {
+        font-size: 1.3rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2,
+    h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .box-01 {
+        border: 1px solid black;
+        background-color: #b8b3b8;
+        margin: 0.3rem;
+    }
+    .box-01 p {
+        font-size: 0.8rem;
+        margin: .2rem;
+    }
+    ul {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .external-article {
+        font-size: 1rem;
+    }
+    ol {
+        margin: 1rem;
+        font-size: .8rem;
     }
     li {
         margin-top: 1.5rem;
