@@ -13,10 +13,6 @@ header {
     margin-bottom: 3rem;
 }
 
-h2.sources {
-    margin-bottom: 2rem;
-}
-
 .sans-serif {
     margin-bottom: 3rem;
 }
@@ -28,6 +24,7 @@ h2.sources {
 h2 {
     word-spacing: 15rem;
     font-size: 1.3rem;
+    margin-bottom: 2rem;
 }
 
 h3 {
@@ -674,4 +671,521 @@ h3 {
 .font-01 {
     font-weight: 800;
     margin-bottom: 3rem;
+}
+
+.foremost {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 2600px) and (min-width: 1451px) {
+    body {
+        background-color: #2c0420;
+        margin: 1rem;
+        max-width: 100%;
+    }
+    .foremost {
+        font-size: 1.9rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 5rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 3rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        margin: 3rem 0 3rem 0;
+    }
+    .foremost p {
+        font-size: 2.5rem;
+    }
+    .sans-serif,
+    .serif-01,
+    .monospace-01,
+    .cursive-01,
+    .cursive-01,
+    .fantas-01 {
+        margin-bottom: 5rem;
+        font-size: 3rem;
+    }
+    .hero-42,
+    .hero-43,
+    .hero-44,
+    .hero-45,
+    .hero-46,
+    .hero-47,
+    .hero-48,
+    .hero-49,
+    .hero-50,
+    .hero-51,
+    .hero-52,
+    .hero-53,
+    .hero-54,
+    .hero-55,
+    .hero-56,
+    .hero-57,
+    .hero-58,
+    .hero-59,
+    .hero-60,
+    .hero-61,
+    .hero-62,
+    .hero-63,
+    .hero-64,
+    .hero-65,
+    .hero-66,
+    .hero-67,
+    .hero-68,
+    .hero-69,
+    .hero-70,
+    .hero-71,
+    .hero-72,
+    .hero-73,
+    .hero-74,
+    .hero-75,
+    .hero-76,
+    .hero-77,
+    .hero-78,
+    .hero-79,
+    .hero-80,
+    .hero-81,
+    .hero-82,
+    .hero-83,
+    .hero-84,
+    .hero-85,
+    .hero-86,
+    .hero-87,
+    .hero-88,
+    .hero-89,
+    .hero-90,
+    .hero-91,
+    .hero-92,
+    .hero-93,
+    .hero-94,
+    .hero-95,
+    .hero-96,
+    .hero-97,
+    .hero-98,
+    .hero-99,
+    .hero-100,
+    .hero-101,
+    .hero-102,
+    .hero-103,
+    .hero-104,
+    .hero-105,
+    .hero-106,
+    .hero-107 {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+    .fonts {
+        font-size: 2rem;
+        color: #232323
+    }
+    button {
+        width: 10rem;
+        height: 5rem;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1301px) {
+    body {
+        background-color: #0d042c;
+        margin: 1rem;
+        max-width: 100%;
+    }
+    .foremost {
+        font-size: 1.9rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    .foremost p {
+        font-size: 1.5rem;
+    }
+    .sans-serif,
+    .serif-01,
+    .monospace-01,
+    .cursive-01,
+    .cursive-01 {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+    .hero-42,
+    .hero-43,
+    .hero-44,
+    .hero-45,
+    .hero-46,
+    .hero-47,
+    .hero-48,
+    .hero-49,
+    .hero-50,
+    .hero-51,
+    .hero-52,
+    .hero-53,
+    .hero-54,
+    .hero-55,
+    .hero-56,
+    .hero-57,
+    .hero-58,
+    .hero-59,
+    .hero-60,
+    .hero-61,
+    .hero-62,
+    .hero-63,
+    .hero-64,
+    .hero-65,
+    .hero-66,
+    .hero-67,
+    .hero-68,
+    .hero-69,
+    .hero-70,
+    .hero-71,
+    .hero-72,
+    .hero-73,
+    .hero-74,
+    .hero-75,
+    .hero-76,
+    .hero-77,
+    .hero-78,
+    .hero-79,
+    .hero-80,
+    .hero-81,
+    .hero-82,
+    .hero-83,
+    .hero-84,
+    .hero-85,
+    .hero-86,
+    .hero-87,
+    .hero-88,
+    .hero-89,
+    .hero-90,
+    .hero-91,
+    .hero-92,
+    .hero-93,
+    .hero-94,
+    .hero-95,
+    .hero-96,
+    .hero-97,
+    .hero-98,
+    .hero-99,
+    .hero-100,
+    .hero-101,
+    .hero-102,
+    .hero-103,
+    .hero-104,
+    .hero-105,
+    .hero-106,
+    .hero-107 {
+        margin-bottom: 1.2rem;
+    }
+    .fonts {
+        font-size: 1.1rem;
+        color: #232323
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 500px) {
+    body {
+        background-color: #4c3797;
+        margin: 1rem;
+        max-width: 100%;
+    }
+    .foremost {
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2.2rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    .foremost p {
+        font-size: 1.2rem;
+    }
+    .hero-42,
+    .hero-43,
+    .hero-44,
+    .hero-45,
+    .hero-46,
+    .hero-47,
+    .hero-48,
+    .hero-49,
+    .hero-50,
+    .hero-51,
+    .hero-52,
+    .hero-53,
+    .hero-54,
+    .hero-55,
+    .hero-56,
+    .hero-57,
+    .hero-58,
+    .hero-59,
+    .hero-60,
+    .hero-61,
+    .hero-62,
+    .hero-63,
+    .hero-64,
+    .hero-65,
+    .hero-66,
+    .hero-67,
+    .hero-68,
+    .hero-69,
+    .hero-70,
+    .hero-71,
+    .hero-72,
+    .hero-73,
+    .hero-74,
+    .hero-75,
+    .hero-76,
+    .hero-77,
+    .hero-78,
+    .hero-79,
+    .hero-80,
+    .hero-81,
+    .hero-82,
+    .hero-83,
+    .hero-84,
+    .hero-85,
+    .hero-86,
+    .hero-87,
+    .hero-88,
+    .hero-89,
+    .hero-90,
+    .hero-91,
+    .hero-92,
+    .hero-93,
+    .hero-94,
+    .hero-95,
+    .hero-96,
+    .hero-97,
+    .hero-98,
+    .hero-99,
+    .hero-100,
+    .hero-101,
+    .hero-102,
+    .hero-103,
+    .hero-104,
+    .hero-105,
+    .hero-106,
+    .hero-107 {
+        margin-bottom: 1rem;
+    }
+    .fonts {
+        font-size: .9rem;
+        color: #232323
+    }
+}
+
+@media screen and (max-width: 499px) and (min-width: 350px) {
+    body {
+        background-color: #973737;
+        margin: 1rem;
+        max-width: 100%;
+    }
+    .foremost {
+        font-size: 1.3rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    .foremost p {
+        font-size: 1rem;
+    }
+    .hero-42,
+    .hero-43,
+    .hero-44,
+    .hero-45,
+    .hero-46,
+    .hero-47,
+    .hero-48,
+    .hero-49,
+    .hero-50,
+    .hero-51,
+    .hero-52,
+    .hero-53,
+    .hero-54,
+    .hero-55,
+    .hero-56,
+    .hero-57,
+    .hero-58,
+    .hero-59,
+    .hero-60,
+    .hero-61,
+    .hero-62,
+    .hero-63,
+    .hero-64,
+    .hero-65,
+    .hero-66,
+    .hero-67,
+    .hero-68,
+    .hero-69,
+    .hero-70,
+    .hero-71,
+    .hero-72,
+    .hero-73,
+    .hero-74,
+    .hero-75,
+    .hero-76,
+    .hero-77,
+    .hero-78,
+    .hero-79,
+    .hero-80,
+    .hero-81,
+    .hero-82,
+    .hero-83,
+    .hero-84,
+    .hero-85,
+    .hero-86,
+    .hero-87,
+    .hero-88,
+    .hero-89,
+    .hero-90,
+    .hero-91,
+    .hero-92,
+    .hero-93,
+    .hero-94,
+    .hero-95,
+    .hero-96,
+    .hero-97,
+    .hero-98,
+    .hero-99,
+    .hero-100,
+    .hero-101,
+    .hero-102,
+    .hero-103,
+    .hero-104,
+    .hero-105,
+    .hero-106,
+    .hero-107 {
+        margin-bottom: 1rem;
+    }
+    .fonts {
+        font-size: .7rem;
+        color: #232323
+    }
+}
+
+@media screen and (max-width: 349px) and (min-width: 250px) {
+    body {
+        background-color: #232323;
+        margin: 1rem;
+        max-width: 100%;
+    }
+    .foremost {
+        font-size: 1.3rem;
+        padding: 10px;
+        margin-top: 15px;
+        overflow: auto;
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-block-start: 0.45em;
+        margin-block-end: 0.45em;
+        text-align: center;
+    }
+    .foremost p {
+        font-size: 1rem;
+    }
+    .hero-42,
+    .hero-43,
+    .hero-44,
+    .hero-45,
+    .hero-46,
+    .hero-47,
+    .hero-48,
+    .hero-49,
+    .hero-50,
+    .hero-51,
+    .hero-52,
+    .hero-53,
+    .hero-54,
+    .hero-55,
+    .hero-56,
+    .hero-57,
+    .hero-58,
+    .hero-59,
+    .hero-60,
+    .hero-61,
+    .hero-62,
+    .hero-63,
+    .hero-64,
+    .hero-65,
+    .hero-66,
+    .hero-67,
+    .hero-68,
+    .hero-69,
+    .hero-70,
+    .hero-71,
+    .hero-72,
+    .hero-73,
+    .hero-74,
+    .hero-75,
+    .hero-76,
+    .hero-77,
+    .hero-78,
+    .hero-79,
+    .hero-80,
+    .hero-81,
+    .hero-82,
+    .hero-83,
+    .hero-84,
+    .hero-85,
+    .hero-86,
+    .hero-87,
+    .hero-88,
+    .hero-89,
+    .hero-90,
+    .hero-91,
+    .hero-92,
+    .hero-93,
+    .hero-94,
+    .hero-95,
+    .hero-96,
+    .hero-97,
+    .hero-98,
+    .hero-99,
+    .hero-100,
+    .hero-101,
+    .hero-102,
+    .hero-103,
+    .hero-104,
+    .hero-105,
+    .hero-106,
+    .hero-107 {
+        margin-bottom: 1rem;
+    }
 }
