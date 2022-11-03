@@ -78,6 +78,59 @@
                 display: none;
             }
             
+            @media screen and (max-width: 399px) and (min-width: 350px) {
+                body {
+                    margin: 1rem;
+                    max-width: 100%;
+                }
+                .foremost {
+                    font-size: 1.3rem;
+                    padding: 10px;
+                    margin-top: 15px;
+                    overflow: auto;
+                    max-width: 100%;
+                }
+                h1 {
+                    font-size: 1.5em;
+                    margin-block-start: 0.45em;
+                    margin-block-end: 0.45em;
+                    text-align: center;
+                }
+                p {
+                    font-size: 1rem;
+                }
+                h2 {
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+                .box-1 {
+                    border: 1px solid black;
+                    background-color: #b8b3b8;
+                    margin: 0.3rem;
+                }
+                #box1 {
+                    height: 10rem;
+                }
+                .box-1 p {
+                    font-size: 0.8rem;
+                }
+                .xmp-a {
+                    display: none;
+                }
+                .sumir {
+                    display: inline-block;
+                    font-size: 0.8rem;
+                    margin: 0.5rem;
+                    width: 19rem;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    word-break: break-word;
+                }
+                #cl {
+                    margin-top: 1.5rem;
+                }
+            }
+            
             @media screen and (max-width: 349px) and (min-width: 250px) {
                 body {
                     margin: 1rem;
