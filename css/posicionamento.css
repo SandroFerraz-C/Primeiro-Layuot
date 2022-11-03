@@ -2,6 +2,8 @@ body {
     background: #ccc;
     font-family: monospace;
     margin: 1%;
+    margin: 1rem;
+    max-width: 100%;
     font-size: 1rem;
 }
 
@@ -27,16 +29,8 @@ abbr {
 }
 
 @media screen and (max-width: 2600px) and (min-width: 1451px) {
-    body {
-        margin: 1rem;
-        max-width: 100%;
-        background-color: rgba(8, 179, 65, 0.467);
-    }
     .foremost {
         font-size: 3.2rem;
-        padding: 10px;
-        margin-top: 15px;
-        overflow: auto;
         max-width: 100%;
     }
     h1 {
@@ -105,7 +99,6 @@ abbr {
     body {
         margin: 1rem;
         max-width: 100%;
-        background-color: rgba(195, 219, 203, 0.467);
     }
     .foremost {
         font-size: 2.2rem;
@@ -174,7 +167,6 @@ abbr {
     body {
         margin: 1rem;
         max-width: 100%;
-        background-color: rgba(8, 48, 179, 0.467);
     }
     .foremost {
         font-size: 1.9rem;
@@ -243,7 +235,6 @@ abbr {
     body {
         margin: 1rem;
         max-width: 100%;
-        background-color: rgba(228, 231, 227, 0.467);
     }
     .foremost {
         font-size: 1.7rem;
@@ -312,7 +303,6 @@ abbr {
     body {
         margin: 1rem;
         max-width: 100%;
-        background-color: rgba(179, 8, 22, 0.467);
     }
     .foremost {
         font-size: 1.3rem;
@@ -376,7 +366,6 @@ abbr {
     body {
         margin: 1rem;
         max-width: 100%;
-        background-color: rgba(255, 17, 17, 0.973);
     }
     .foremost {
         font-size: 1.3rem;
@@ -440,7 +429,6 @@ abbr {
     body {
         margin: 1rem;
         max-width: 100%;
-        background-color: rgba(153, 179, 8, 0.467);
     }
     .foremost {
         font-size: 1.3rem;
