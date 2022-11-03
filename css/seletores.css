@@ -1,23 +1,132 @@
-body{background: #ccc;
-font-family: monospace;
-margin: 1%; }
-
-.box-1{ 
-    border: 1px solid black; 
-    background-color: #b8b3b8; 
-}
-.font{color:green;}
-.font01{color: blue;}
-.font02{color: green;}
-.font03{color: red;}
-.margem02{margin-left: 15px;}
-
-#a{
-    margin: 0 0 1rem 0;
-}
-
-.diferente{
-    color: blue;
-}
-
-button{margin-top: 15px;}
+            body {
+                background: #ccc;
+                font-family: monospace;
+                margin: 2.5rem;
+            }
+            
+            .foremost {
+                font-size: 1.3rem;
+                background-color: white;
+                padding: 10px;
+                margin-top: 15px;
+                overflow: auto;
+            }
+            
+            .uppercase {
+                text-transform: uppercase;
+            }
+            
+            .xmp-a {
+                margin-left: -15rem;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            
+            .box-1 {
+                border: 1px solid black;
+                background-color: #b8b3b8;
+                margin: 1rem;
+            }
+            
+            .box-1 p {
+                margin: 0.5rem;
+            }
+            
+            .diferente {
+                color: blue;
+            }
+            
+            .destaque {
+                margin: 10px;
+                font-weight: bold;
+                color: grey;
+            }
+            
+            .font {
+                color: green;
+            }
+            
+            .font01 {
+                color: blue;
+            }
+            
+            .font02 {
+                color: green;
+            }
+            
+            .font03 {
+                color: red;
+            }
+            
+            .margem02 {
+                margin-left: 15px;
+            }
+            
+            #a {
+                margin: 0 0 1rem 0;
+            }
+            
+            .diferente {
+                color: blue;
+            }
+            
+            button {
+                margin-top: 15px;
+            }
+            
+            .sumir {
+                display: none;
+            }
+            
+            @media screen and (max-width: 349px) and (min-width: 250px) {
+                body {
+                    margin: 1rem;
+                    max-width: 100%;
+                }
+                .foremost {
+                    font-size: 1.3rem;
+                    padding: 10px;
+                    margin-top: 15px;
+                    overflow: auto;
+                    max-width: 100%;
+                }
+                h1 {
+                    font-size: 1.5em;
+                    margin-block-start: 0.45em;
+                    margin-block-end: 0.45em;
+                    text-align: center;
+                }
+                p {
+                    font-size: 1rem;
+                }
+                h2 {
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+                .box-1 {
+                    border: 1px solid black;
+                    background-color: #b8b3b8;
+                    margin: 0.3rem;
+                }
+                #box1 {
+                    height: 11rem;
+                }
+                .box-1 p {
+                    font-size: 0.8rem;
+                }
+                .xmp-a {
+                    display: none;
+                }
+                .sumir {
+                    display: inline-block;
+                    font-size: 0.8rem;
+                    margin: 0.5rem;
+                    width: 15rem;
+                    overflow-wrap: break-word;
+                    word-wrap: break-word;
+                    word-break: break-word;
+                }
+                #cl {
+                    margin-top: 1.5rem;
+                }
+            }

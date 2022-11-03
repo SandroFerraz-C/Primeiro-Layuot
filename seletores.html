@@ -2,144 +2,176 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, sitelinkssearchbox, translate, imageindex, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://fundamentosweb.netlify.app/seletores.html">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="main">
+    <meta property="og:title" content="Seletores">
+    <meta property="og:url" content="https://fundamentosweb.netlify.app/seletores.html">
+    <meta property="og:site_name" content="Seletores">
+    <meta name="keywords" content="html, javascript, programacao, js, css, web, tecnologia, desenvolvimento, web design, ">
+    <meta name="Author" content="Sandro Ferraz">
+    <meta name="description" content="Aprenda sobre seletores HTML">
+    <meta property="og:description" content="Aprenda sobre seletores HTML">
     <title>Seletores</title>
-    <meta charset="utf-8">
-    <meta name="Author" content="Sandro">
-    <meta name="descrition" content="Seletores HTML">
-    <meta name="keywords" content="html5, tecnologia, html, programacao, desenvolvimento, web">
     <link rel="stylesheet" href="css/seletores.css">
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733465042756742" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <main>
+    <div class="foremost">
+        <main>
 
-        <h1>Seletores <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span></h1>
+            <h1>Seletores <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span></h1>
 
-        <p>
-            Um documento <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span> bem estruturado fornece a estrutra a qual seus estilos s&atilde;o aplicados&#46; Para poder estilizar um determinado elemento <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span>            utilizando <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>&#44; voc&ecirc; precisa ter uma maneira de selecionar esses elementos&#46; Na <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>            a parte de uma regra de estilo que faz isso e chamado de <b>Seletor</b>
-        </p>
-
-        <h2>Seletor tipo &#40;tags&#41;</h2>
-
-        <p>
-            &#201; o seletor mais abrangente da <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>&#44; ele casa com todos os elementos encontrados&#46;
-            <br /> Exemplo&#58;
-        </p>
-
-        <section class="box-1">
-            <p><b>h&#49;</b>
-                <p class="font">&#123;<span class="font01">Font&#45;size&#58;</span> 20px&#59;&#125;</p>
-                <b>P</b>
-                <p class="font"> &#123;<span class="font01">Font&#45;size&#58;</span> 10px&#59;&#125;</p>
-        </section>
-
-        <p>Os estilos acima ir&atilde;o refletir em todos os elementos &#34;p&#34; e &#34;h1&#34; da p&aacute;gina</p>
-
-        <h2>Agrupamento de seletores</h2>
-
-        <p>
-            Para aplicar uma regra <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> comum a v&aacute;rios seletores voc&ecirc; pode agrupa&#45;los&#46;
-        </p>
-
-        <p>Abaixo vemos algumas regras em comum&#46;</p>
-
-        <section class="box-1">
             <p>
-                <b>h&#49;</b>&#123;<span class="font01"> color&#58;</span> red;&#125; <br><b>h&#50;</b> &#123;<span class="font01"> color&#58;</span> red&#59;&#125; <br> <b>p</b> &#123;<span class="font01"> color&#58;
-                </span> red&#59;&#125;
+                Um documento <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span> bem estruturado fornece a estrutra a qual seus estilos s&atilde;o aplicados&#46; Para poder estilizar um determinado elemento <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span>                utilizando <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>&#44; voc&ecirc; precisa ter uma maneira de selecionar esses elementos&#46; No <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>                a parte de uma regra de estilo que faz isso e chamado de <b>Seletor</b>
             </p>
-        </section>
 
-        <p>Aqui eles foram agrupados&#46;</p>
+            <h2>Seletor tipo &#40;tags&#41;</h2>
 
-        <section class="box-1" id="a">
-            <p><b>h&#49;&#44; h&#50;&#44; p</b>&#123;<span class="font01"> color&#58;</span> red&#59;&#125;</p>
-        </section>
-
-        <h2>Seletor de classe</h2>
-
-        <p>Podemos aplicar o seletor ao atributo &#34;class&#34; de qualquer elemento <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span>&#46; Se a inten&ccedil;&atilde;o &eacute; aplicar a mesma regra <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>            a diferentes elementos&#44; voc&ecirc; pode utilizar um <b>Seletor de Classe</b>&#44; segue exemplo&#58;</p>
-
-        <section class="box-1">
             <p>
-                <xmp>
-                    <p><span class="diferente">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry.</p>
-                </xmp>
-                //Podemos mudar a cor, fonte ou tamanho da palavra "Lorem Ipsum"&#44; utilizando o nome dado na classe dela no <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
-            </p>
-        </section>
-
-        <p>
-            O <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> deve come&ccedil;ar com um &#34;&#46;&#34; &#40;ponto&#41; imediatamente seguido pelo nome da classe&#44; veja&#58;
-        </p>
-
-        <section class="box-1">
-            <p>&#46;diferente &#123;<span class="font01"> color</span>&#58; blue;&#125;</p>
-        </section>
-
-        <p>
-            &Eacute; permitido declarar mais de um nome para a classe do mesmo elemento separando os nomes por espaço&#44; exemplo&#58;
-        </p>
-
-        <section class="box-1">
-            <p>
-                <span class="font02"> class</span> <span class="font03"> &#34;destaque discreto&#34;</span> > Este par&aacute;grafo sofrer&aacute; estilizaç&atilde;o de duas regras <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
+                &#201; o seletor mais abrangente do <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>&#44; ele casa com todos os elementos encontrados&#46;
+                <br /> Exemplo&#58;
             </p>
 
             <section class="box-1">
-                p
-                <b>&#123;</b>
-                <br/><span class="font01">margin&#58;</span>
-                <span class="font02">10px</span>&#59;
-                <br/>&#125;
+                <p><b>h&#49;</b></p>
+
+                <p class="font">&#123;<span class="font01">Font&#45;size&#58;</span> 20px&#59;&#125;</p>
+                <p><b>p</b></p>
+                <p class="font"> &#123;<span class="font01">Font&#45;size&#58;</span> 10px&#59;&#125;</p>
+
+            </section>
+
+            <p>Os estilos acima ir&atilde;o refletir em todos os elementos &#34;p&#34; e &#34;h1&#34; da p&aacute;gina</p>
+
+            <h2>Agrupamento de seletores</h2>
+
+            <p>
+                Para aplicar uma regra <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> comum a v&aacute;rios seletores voc&ecirc; pode agrupa&#45;los&#46;
+            </p>
+
+            <p>Abaixo vemos algumas regras em comum&#46;</p>
+
+            <section class="box-1">
                 <p>
-                    <br/><b>p</b> &#46;destaque &#123;
-                    <br/><span class="font01">font&#45;weight&#58;</span> bold&#59;
-                    <br/>&#125;
-                    <br/><b>p</b> &#46;discreto &#123;
-                    <br/>color&#58; gray&#59;
-                    <br/>&#125;
+                    <b>h&#49;</b>&#123;<span class="font01"> color&#58;</span> red;&#125; <br><b>h&#50;</b>&#123;<span class="font01"> color&#58;</span> red&#59;&#125; <br> <b>p</b>&#123;<span class="font01"> color&#58;
+                        </span> red&#59;&#125;
                 </p>
             </section>
-        </section>
 
-        <h2>Seletor id</h2>
+            <p>Aqui eles foram agrupados&#46;</p>
 
-        <p>
-            O identificador id pode ser aplicado na maioria dos elementos <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span>, s&oacute; que ele deve ser unico em sua p&aacute;gina&#46;
-        </p>
+            <section class="box-1" id="a">
+                <p><b>h&#49;&#44; h&#50;&#44; p</b>&#123;<span class="font01"> color&#58;</span> red&#59;&#125;</p>
+            </section>
 
-        <section class="box-1">
-            <span class="font02">id</span>
-            <span class="font01">&#61;</span>
-            <span class="font03">&#34;main&#34;</span>
-            <span class="font01">&#46;&#46;&#46;</span>
-        </section>
+            <h2>Seletor de classe</h2>
 
-        <p>
-            O <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> deve ser precedida pelo sinal &#34;&#35;&#34; e imediatamente pelo nome, Veja&#58;
-        </p>
-
-        <section class="box-1">
-            <p class="margem01">
-                <span class="font03">&#35;main</span> &#123;
-            </p>
-            <p class="margem02">&#46;&#46;&#46;</p>
-            <p class="margem02">&#46;&#46;&#46;</p>
-            <p class="margem02">&#46;&#46;&#46;</p>
-            <p>&#125;</p>
-
-        </section>
-
-        <div>
             <p>
-                Saiba mais sobre seletores: <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors" target="_blank">Mozilla</a>
+                Podemos aplicar o seletor ao atributo &#34;class&#34; de qualquer elemento <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span>&#46; Se a inten&ccedil;&atilde;o &eacute; aplicar a mesma regra <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>                a diferentes elementos&#44; voc&ecirc; pode utilizar um <b>Seletor de Classe</b>&#44; segue exemplo&#58;
             </p>
-        </div>
-    </main>
 
-    <a href="index.html"><button>Voltar</button></a>
+            <section class="box-1">
+                <div id="box1">
+                    <div class="sumir">
+                        < p>
+                            < span class="diferente">Lorem Ipsum</ span> is simply dummy text of the printing and typesetting industry.
+                            < /p>
+                    </div>
+                    <xmp class="xmp-a">
+                        <p><span class="diferente">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry.</p>
+                    </xmp>
+                    <p id="cl">
+                        //Podemos mudar a cor, fonte ou tamanho da palavra "Lorem Ipsum"&#44; utilizando o nome dado na classe dela no <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
+                    </p>
+                </div>
+            </section>
+
+            <p class="aa">
+                O <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> deve come&ccedil;ar com um &#34;&#46;&#34; &#40;ponto&#41; imediatamente seguido pelo nome da classe&#44; veja&#58;
+            </p>
+
+            <section class="box-1">
+                <p>&#46;diferente &#123;<span class="font01"> color</span>&#58; blue;&#125;</p>
+                <p><span class="diferente">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry.</p>
+            </section>
+
+            <p>
+                &Eacute; permitido declarar mais de um nome para a classe do mesmo elemento separando os nomes por espaço&#44; exemplo&#58;
+            </p>
+
+            <section class="box-1">
+                <p>
+                    <span class="font02"> class =</span> <span class="font03"> &#34;destaque discreto&#34;</span> > Este par&aacute;grafo sofrer&aacute; estilizaç&atilde;o de duas regras <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span>
+                </p>
+
+                <section class="box-1">
+                    <p> p
+                        <b>&#123;</b>
+                        <br/><span class="font01">margin&#58;</span>
+                        <span class="font02">10px</span>&#59;
+                        <br/>&#125;
+                    </p>
+
+                    <p>
+                        <br/><b>p</b> &#46;destaque &#123;
+                        <br/><span class="font01">font&#45;weight&#58;</span> bold&#59;
+                        <br/>&#125;
+                    </p>
+
+                    <p>
+                        <br/><b>p</b> &#46;discreto &#123;
+                        <br/><span class="font01">color&#58;</span> gray&#59;
+                        <br/>&#125;
+                    </p>
+                </section>
+
+                <p>Ficara assim apois a estilização&#58;</p>
+
+                <p class="destaque discreto"> Este parágrafo sofrerá estilização de duas regras CSS</p>
+
+            </section>
+
+            <h2>Seletor id</h2>
+
+            <p>
+                O identificador id pode ser aplicado na maioria dos elementos <span class="uppercase"><abbr title="HyperText Markup Language&#44;"> html</abbr></span>, s&oacute; que ele deve ser unico em sua p&aacute;gina&#46;
+            </p>
+
+            <section class="box-1">
+                <span class="font02">id</span>
+                <span class="font01">&#61;</span>
+                <span class="font03">&#34;main&#34;</span>
+                <span class="font01">&#46;&#46;&#46;</span>
+            </section>
+
+            <p>
+                O <span class="uppercase"><abbr title="Cascading Style Sheets">css</abbr></span> deve ser precedida pelo sinal &#34;&#35;&#34; e imediatamente pelo nome, Veja&#58;
+            </p>
+
+            <section class="box-1">
+                <p class="margem01">
+                    <span class="font03">&#35;main</span> &#123;
+                </p>
+                <p class="margem02">&#46;&#46;&#46;</p>
+                <p class="margem02">&#46;&#46;&#46;</p>
+                <p class="margem02">&#46;&#46;&#46;</p>
+                <p>&#125;</p>
+            </section>
+
+            <div>
+                <p>
+                    Saiba mais sobre seletores: <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors" target="_blank">Mozilla</a>
+                </p>
+            </div>
+        </main>
+
+        <a href="index.html"><button>Voltar</button></a>
+    </div>
 </body>
 
 </html>
